@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<!-- saved from url=(0415)file:///Users/linhang/Desktop/%E6%B1%9F%E8%A5%BF%E5%AE%8F%E5%9B%BE%E9%9B%86%E5%9B%A2%20%C2%B7%20%E5%9B%BD%E5%86%85%20GEO%20%E5%8F%AF%E8%A7%81%E6%80%A7%E8%AF%8A%E6%96%AD%E6%8A%A5%E5%91%8A%EF%BC%88DeepSeek%20+%20%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE%20+%20%E8%B1%86%E5%8C%85%20+%20Kimi%20%E5%9B%9B%E5%BC%95%E6%93%8E%20%C2%B7%20%E5%AE%9E%E6%B5%8B%E5%9B%9E%E5%A1%AB%E7%89%88%EF%BC%89_%20%E7%BC%A4%E5%95%86%20Bincial.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>江西宏图集团 · 国内 GEO 可见性诊断报告（DeepSeek + 通义千问 + 豆包 + Kimi 四引擎 · 实测回填版）| 缤商 Bincial</title>
+<script src="./江西宏图集团 · 国内 GEO 可见性诊断报告（DeepSeek + 通义千问 + 豆包 + Kimi 四引擎 · 实测回填版）_ 缤商 Bincial_files/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg:#F4F7FA; --bg2:#FFFFFF; --bg3:#E8EFF5;
+  --ink:#14212B; --ink2:#33475B; --ink3:#657687;
+  --line:#DEE7EF; --line2:#C7D4E0;
+  --brand:#1A5E8A; --brand-soft:#DCEAF4; --brand-ink:#0E3E5E;
+  --steel:#2F4A63; --steel-soft:#DFE7EF; --steel-ink:#1B324A;
+  --green:#2E7D5B; --green-soft:#DCEEE4; --green-ink:#1C5A3F;
+  --red:#C0392B; --red-soft:#F7E1DD; --red-ink:#8A2318;
+  --amber:#B8860B; --amber-soft:#F6EBCF; --amber-ink:#7A5804;
+  --grey-soft:#E9EDF2;
+  --wait:#5B6572; --wait-soft:#E7ECF2; --wait-ink:#3E4756;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.7;font-weight:400}
+a{color:var(--brand);text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:56px 40px 96px}
+.hero{padding:56px 48px 48px;background:linear-gradient(135deg,#F1F7FC 0%,#DCEAF4 100%);border:1px solid var(--line);border-radius:20px;margin-bottom:48px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;top:-40px;right:-40px;width:280px;height:280px;background:radial-gradient(circle,var(--brand-soft) 0%,transparent 70%);opacity:.6}
+.hero-eyebrow{display:inline-block;padding:6px 14px;background:var(--brand);color:#fff;font-size:12px;font-weight:500;border-radius:999px;letter-spacing:.5px;margin-bottom:20px}
+.hero h1{font-size:34px;line-height:1.28;font-weight:500;margin-bottom:14px;letter-spacing:-.5px}
+.hero .sub{font-size:15.5px;color:var(--ink2);margin-bottom:22px;max-width:800px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:22px;padding-top:22px;border-top:1px solid var(--line2);font-size:13px;color:var(--ink3)}
+.hero-meta b{color:var(--ink);font-weight:500}
+section{margin-bottom:56px}
+.section-head{display:flex;align-items:baseline;gap:16px;margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.section-num{font-size:13px;color:var(--brand);font-weight:500;letter-spacing:1px}
+.section-head h2{font-size:22px;font-weight:500;color:var(--ink);letter-spacing:-.3px}
+.section-desc{color:var(--ink3);font-size:14px;margin-bottom:24px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:24px 28px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.score-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:24px;align-items:stretch}
+.score-main{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:28px 32px;display:flex;flex-direction:column;justify-content:center}
+.score-num{font-size:64px;font-weight:500;line-height:1;color:var(--brand);letter-spacing:-2px}
+.score-num small{font-size:22px;color:var(--ink3);font-weight:400;margin-left:4px}
+.score-num.wait{font-size:46px;color:var(--wait)}
+.score-label{font-size:13px;color:var(--ink3);margin-top:6px;letter-spacing:1px}
+.score-tag{display:inline-block;margin-top:16px;padding:6px 14px;background:var(--wait-soft);color:var(--wait);border:1px solid var(--line2);border-radius:8px;font-size:13px;font-weight:500;width:fit-content}
+.score-hint{margin-top:18px;color:var(--ink2);font-size:13.5px;line-height:1.7}
+.score-hint b{color:var(--brand-ink)}
+.radar-box{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:20px;position:relative}
+.radar-box h3{font-size:14px;font-weight:500;color:var(--ink2);margin-bottom:6px}
+.radar-box .rc{font-size:12px;color:var(--ink3);margin-bottom:8px}
+.radar-wrap{height:360px;position:relative}
+.radar-mask{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.radar-mask span{background:rgba(91,101,114,.9);color:#fff;font-size:13px;font-weight:500;padding:8px 16px;border-radius:8px;letter-spacing:1px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--bg2);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th{background:var(--bg3);color:var(--ink2);font-weight:500;text-align:left;padding:12px 14px;border-bottom:1px solid var(--line2);font-size:12.5px;letter-spacing:.3px}
+td{padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#FAFBFD}
+td.right{text-align:right;font-variant-numeric:tabular-nums}
+td.center{text-align:center}
+.badge{display:inline-block;padding:3px 9px;font-size:11.5px;font-weight:500;border-radius:6px;border:1px solid transparent}
+.b-green{background:var(--green-soft);color:var(--green-ink);border-color:#AFD4C0}
+.b-amber{background:var(--amber-soft);color:var(--amber-ink);border-color:#E6CE8C}
+.b-red{background:var(--red-soft);color:var(--red-ink);border-color:#E8B3AB}
+.b-grey{background:var(--grey-soft);color:var(--ink2);border-color:var(--line2)}
+.b-steel{background:var(--steel-soft);color:var(--steel-ink);border-color:#B8C6D3}
+.b-brand{background:var(--brand-soft);color:var(--brand-ink);border-color:#A9CBE2}
+.b-wait{background:var(--wait-soft);color:var(--wait);border-color:var(--line2)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.d-green{background:#2E7D5B}.d-amber{background:#B8860B}.d-red{background:#C0392B}.d-grey{background:#8A93A0}.d-wait{background:#8A93A0}
+.heatmap td.cell{text-align:center;font-size:13px;padding:9px 6px;font-weight:500}
+.cell-hit{background:#D6EADE;color:#1C5A3F}
+.cell-part{background:#F6EBCF;color:#7A5804}
+.cell-miss{background:#F7E1DD;color:#8A2318}
+.cell-zero{background:#E9EDF2;color:#8A93A0}
+.cell-wait{background:#E7ECF2;color:#5B6572;font-weight:500;letter-spacing:.5px}
+.circles{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+.circles-desc ul{list-style:none;padding:0}
+.circles-desc li{display:flex;gap:12px;padding:10px 0;border-bottom:1px dashed var(--line)}
+.circles-desc li:last-child{border-bottom:none}
+.circles-desc .lv{flex-shrink:0;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:500;font-size:13px;color:#fff}
+.lv-1{background:#8FA6BC}.lv-2{background:#6E8FA5}.lv-3{background:#B8860B}.lv-4{background:#C0392B}.lv-5{background:#5A3E7A}
+.circles-desc .lv-text b{display:block;color:var(--ink);font-weight:500;font-size:14px;margin-bottom:2px}
+.circles-desc .lv-text span{color:var(--ink3);font-size:12.5px}
+.blind-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
+.blind{background:var(--bg2);border:1px solid var(--line);border-left:3px solid var(--wait);border-radius:10px;padding:16px 18px}
+.blind h4{font-size:14px;font-weight:500;color:var(--brand-ink);margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.blind h4 .n{background:var(--wait-soft);color:var(--wait);border-radius:4px;padding:1px 6px;font-size:11px;font-weight:500}
+.blind p{font-size:12.5px;color:var(--ink2);line-height:1.6}
+.blind .impact{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);font-size:12px;color:var(--ink3)}
+.blind .impact b{color:var(--brand-ink)}
+.evidence{background:#FAFBFD;border:1px solid var(--line);border-left:3px solid var(--wait);border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.evidence .ev-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:12px;color:var(--ink3);flex-wrap:wrap;gap:8px}
+.evidence .ev-head .engine{background:var(--steel-soft);color:var(--steel-ink);padding:2px 8px;border-radius:5px;font-weight:500}
+.evidence blockquote{font-size:13.5px;color:var(--ink2);line-height:1.7;border-left:none;padding:0;margin:0;font-style:italic}
+.evidence .ev-diag{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);font-size:12px;color:var(--ink3)}
+.evidence .ev-diag b{color:var(--brand-ink);font-style:normal}
+.ev-wait{color:var(--wait);font-style:normal;font-weight:500}
+.compete-table td{font-size:12.5px}
+.compete-table .yes{color:var(--green-ink);font-weight:500}
+.compete-table .no{color:var(--red-ink)}
+.compete-table .partial{color:var(--amber-ink)}
+.compete-table .wait{color:var(--wait);font-weight:500}
+.compete-table .col-us{background:#F1F7FC}
+.knife{display:grid;grid-template-columns:60px 1fr;gap:18px;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:20px 24px;margin-bottom:12px}
+.knife-num{font-size:36px;font-weight:500;color:var(--brand);line-height:1;text-align:center;padding-top:2px}
+.knife-body h4{font-size:15px;font-weight:500;margin-bottom:4px;color:var(--ink)}
+.knife-body .stack{display:inline-block;background:var(--brand-soft);color:var(--brand-ink);font-size:11.5px;padding:2px 8px;border-radius:5px;margin-bottom:8px;margin-right:6px}
+.knife-body p{font-size:13px;color:var(--ink2);line-height:1.65}
+.knife-body .expect{margin-top:8px;font-size:12px;color:var(--ink3)}
+.knife-body .expect b{color:var(--green-ink)}
+.roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.phase{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:20px 22px;position:relative}
+.phase-head{display:flex;align-items:baseline;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.phase-head .p-num{font-size:11px;font-weight:500;color:var(--brand);letter-spacing:1px}
+.phase-head .p-tag{font-size:12px;color:var(--ink3)}
+.phase h4{font-size:15px;font-weight:500;color:var(--ink);margin-bottom:12px}
+.phase ul{list-style:none;padding:0}
+.phase li{padding:6px 0;font-size:12.5px;color:var(--ink2);border-bottom:1px dashed var(--line);display:flex;gap:8px}
+.phase li::before{content:"→";color:var(--brand);flex-shrink:0}
+.phase li:last-child{border-bottom:none}
+.phase .p-target{margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:12px;color:var(--green-ink)}
+.phase .p-target b{color:var(--green-ink)}
+.kw-tag{display:inline-block;padding:2px 7px;font-size:11px;background:var(--steel-soft);color:var(--steel-ink);border-radius:4px}
+.cov-bar{display:inline-block;position:relative;width:56px;height:8px;background:var(--line);border-radius:4px;vertical-align:middle;margin-right:6px}
+.cov-fill{position:absolute;left:0;top:0;height:100%;border-radius:4px}
+.cov-r{background:var(--red)}.cov-a{background:var(--amber)}.cov-g{background:var(--green)}.cov-w{background:repeating-linear-gradient(45deg,#C4CEDB,#C4CEDB 4px,#DDE4EC 4px,#DDE4EC 8px)}
+.methodology{background:#EAF2F8;border:1px solid var(--line2);border-radius:12px;padding:18px 22px;font-size:13px;color:var(--ink2);line-height:1.7}
+.methodology b{color:var(--brand-ink);font-weight:500}
+.methodology .link{display:inline-block;margin-top:6px;padding:2px 8px;background:var(--bg2);border:1px solid var(--line);border-radius:5px;font-size:11.5px;color:var(--steel-ink);font-family:monospace}
+footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);color:var(--ink3);font-size:12px;line-height:1.7;text-align:center}
+footer b{color:var(--ink2)}
+.mt-2{margin-top:8px}.mt-4{margin-top:16px}.mt-6{margin-top:24px}
+.mb-4{margin-bottom:16px}
+.pill{display:inline-block;padding:3px 10px;background:var(--bg3);color:var(--ink2);border-radius:999px;font-size:12px;margin-right:6px;margin-bottom:6px;border:1px solid var(--line2)}
+.brandbar{background:linear-gradient(135deg,#0B2C44 0%,#124568 55%,#1A5E8A 130%);color:#fff;position:sticky;top:0;z-index:100;box-shadow:0 1px 0 rgba(0,0,0,.06)}
+.brandbar-inner{max-width:1180px;margin:0 auto;padding:12px 40px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.bb-left{display:flex;align-items:center;gap:14px}
+.bb-logo{font-size:20px;font-weight:600;letter-spacing:.5px;color:#fff;display:inline-flex;align-items:baseline;gap:8px}
+.bb-logo-en{font-size:11px;font-weight:500;letter-spacing:3px;color:rgba(255,255,255,.6)}
+.bb-sep{width:1px;height:18px;background:rgba(255,255,255,.28)}
+.bb-tag{font-size:13px;font-weight:500;color:rgba(255,255,255,.9)}
+.bb-right{font-size:12.5px;color:rgba(255,255,255,.78)}
+.bb-right b{color:#fff;font-weight:500}
+@media (max-width:680px){.bb-right{display:none}.brandbar-inner{padding:12px 20px}}
+.hero-chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;position:relative;z-index:1}
+.hchip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:500;padding:5px 12px;border-radius:20px;border:1px solid transparent}
+.hchip-red{background:var(--red-soft);color:var(--red-ink);border-color:#E8B3AB}
+.hchip-green{background:var(--green-soft);color:var(--green-ink);border-color:#AFD4C0}
+.hchip-amber{background:var(--amber-soft);color:var(--amber-ink);border-color:#E6CE8C}
+.hchip-grey{background:var(--grey-soft);color:var(--ink2);border-color:var(--line2)}
+.hchip-brand{background:var(--brand-soft);color:var(--brand-ink);border-color:#A9CBE2}
+.hchip-wait{background:var(--wait-soft);color:var(--wait);border-color:var(--line2)}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px;position:relative;z-index:1}
+.hs-card{background:rgba(255,255,255,.82);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.hs-card.top{border-top:3px solid var(--wait)}
+.hs-card.mid{border-top:3px solid var(--wait)}
+.hs-card.low{border-top:3px solid var(--wait)}
+.hs-card.brand{border-top:3px solid var(--brand)}
+.hs-label{font-size:11.5px;color:var(--ink3);letter-spacing:.5px;margin-bottom:6px}
+.hs-num{font-size:34px;font-weight:500;line-height:1;letter-spacing:-1px}
+.hs-num small{font-size:15px;color:var(--ink3);font-weight:400;margin-left:2px}
+.hs-num.green{color:var(--green-ink)}.hs-num.amber{color:var(--amber-ink)}.hs-num.red{color:var(--red-ink)}.hs-num.brand{color:var(--brand)}.hs-num.wait{color:var(--wait);font-size:26px}
+.hs-desc{font-size:12px;color:var(--ink2);margin-top:8px;line-height:1.55}
+.hs-desc b{color:var(--brand-ink);font-weight:500}
+@media (max-width:900px){.hero-stats{grid-template-columns:1fr 1fr}}
+.pyramid-panel{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:28px 32px;margin-bottom:56px;display:grid;grid-template-columns:230px 1fr;gap:36px;align-items:center}
+.pyr-score{text-align:center}
+.pyr-score-lbl{font-size:12px;color:var(--ink3);letter-spacing:1px;margin-bottom:14px}
+.pyr-grade{font-size:88px;font-weight:500;line-height:1;letter-spacing:-2px;background:linear-gradient(135deg,#1A5E8A 0%,#0E3E5E 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pyr-grade.wait{font-size:54px;background:none;-webkit-background-clip:initial;background-clip:initial;color:var(--wait)}
+.pyr-grade-tag{margin-top:14px;font-size:13px;color:var(--ink2);line-height:1.6}
+.pyr-grade-tag b{color:var(--wait)}
+.pyr-bars-head{font-size:15px;font-weight:500;color:var(--ink);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.pyr-row{margin-bottom:14px}
+.pyr-row:last-child{margin-bottom:0}
+.pyr-r-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:5px}
+.pyr-r-nm{font-size:13.5px;font-weight:500}
+.pyr-r-nm.g{color:var(--green-ink)}.pyr-r-nm.a{color:var(--amber-ink)}.pyr-r-nm.r{color:var(--red-ink)}.pyr-r-nm.w{color:var(--wait)}
+.pyr-r-val{font-size:13px;font-weight:500}
+.pyr-r-val.w{color:var(--wait)}
+.pyr-r-bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.pyr-r-fill{height:100%;border-radius:4px}
+.pyr-r-fill.w{background:repeating-linear-gradient(45deg,#C4CEDB,#C4CEDB 6px,#D8DFE8 6px,#D8DFE8 12px)}
+.pyr-r-note{font-size:12px;color:var(--ink3);margin-top:4px}
+.pyr-r-note b.w{color:var(--wait)}
+.pyr-footer{grid-column:1/-1;margin-top:16px;padding-top:16px;border-top:1px dashed var(--line);font-size:12.5px;color:var(--ink3);line-height:1.6}
+.pyr-footer b{color:var(--ink)}
+@media (max-width:900px){.pyramid-panel{grid-template-columns:1fr;padding:22px}.pyr-grade{font-size:60px}}
+.numbar{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:20px}
+.numbar .nb{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.nb-lbl{font-size:11.5px;color:var(--ink3);letter-spacing:.3px}
+.nb-num{font-size:30px;font-weight:500;letter-spacing:-.5px;line-height:1;margin-top:8px}
+.nb-num small{font-size:13px;color:var(--ink3);font-weight:400;margin-left:2px}
+.nb-num.brand{color:var(--brand)}.nb-num.green{color:var(--green-ink)}.nb-num.amber{color:var(--amber-ink)}.nb-num.red{color:var(--red-ink)}.nb-num.wait{color:var(--wait);font-size:22px}
+.nb-desc{font-size:11.5px;color:var(--ink3);margin-top:6px;line-height:1.5}
+@media (max-width:900px){.numbar{grid-template-columns:1fr 1fr}}
+.wait-banner{background:linear-gradient(135deg,#E7ECF2 0%,#DCEAF4 100%);border:1px dashed var(--line2);border-radius:12px;padding:16px 22px;font-size:13px;color:var(--ink2);line-height:1.7;margin-bottom:24px}
+.wait-banner b{color:var(--brand-ink)}
+.wtag{display:inline-block;background:var(--wait-soft);color:var(--wait);border:1px solid var(--line2);border-radius:5px;padding:1px 8px;font-size:12px;font-weight:500;letter-spacing:.5px}
+@media (max-width:900px){
+  .wrap{padding:32px 20px}
+  .hero{padding:36px 24px}
+  .hero h1{font-size:24px}
+  .grid-2,.grid-3,.grid-4,.score-grid,.circles,.roadmap,.blind-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="brandbar">
+  <div class="brandbar-inner">
+    <div class="bb-left">
+      <span class="bb-logo">缤商<span class="bb-logo-en">Bincial</span></span>
+      <span class="bb-sep"></span>
+      <span class="bb-tag">国内 GEO 一体化诊断服务商</span>
+    </div>
+    <div class="bb-right">为 <b>江西宏图集团（喵旅 Mewtour）</b> 定制 · 4 引擎 × 20 场景箱包采购/代工决策问句 · <b>综合评分 42.4 / 100</b></div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<div class="hero">
+  <div class="hero-chips">
+    <span class="hchip hchip-brand">拉杆箱源头工厂 · OEM/ODM 贴牌代工 · 据企业资料：自研 Armopack 板材 · 自有品牌喵旅 · 跨境 DTC 供货 · 江西宏图集团</span>
+    <span class="hchip hchip-amber">四引擎原始对话已复核 · 79/80 格可判定</span>
+    <span class="hchip hchip-grey">实测回填版 · 2026-09-10</span>
+  </div>
+  <span class="hero-eyebrow">GEO 可见性诊断报告 · 江西宏图集团箱包制造专属（四引擎实测回填版 · 2026-09-10）</span>
+  <h1>你深耕拉杆箱源头制造——模具开模、注塑生产、OEM/ODM 贴牌定制、自有品牌喵旅零售；<br>但当电商卖家、礼品采购、跨境 DTC 品牌问 AI "拉杆箱代工厂哪家好""行李箱源头工厂找谁定制" 时，<br>AI 会不会主动想起、并推荐江西宏图集团？</h1>
+  <p class="sub">这是本次 GEO 诊断要回答的核心问题。箱包 OEM/ODM 代工是一门<b>典型的 B2B、重供应链、重打样交期、长比价决策链的制造型生意</b>——真正拍板的是<b>电商平台卖家、礼品/福利采购负责人、跨境 DTC 外贸品牌方、线下经销商与采购经理</b>，他们越来越习惯先问 AI："<b>拉杆箱代工厂哪家好""行李箱源头工厂在哪里""OEM 贴牌行李箱怎么找工厂""跨境行李箱代工怎么选""江西/吉安箱包厂靠谱吗</b>"。本报告已从分享页公开数据逐条复核 DeepSeek、通义千问、豆包、Kimi 的完整原文：80 格设计矩阵中，<b>79 格可判定；仅 Kimi 原始对话把 Q1 重复提问两次，未形成 Q2 对应回答</b>。有效样本加权可见度为 <b>42.4%</b>；品牌直搜题为 <b>75.0%</b>，通用采购/代工题仅 <b>28.2%</b>。结论非常清楚：<b>点名后能被识别，但不点名时很难进入采购候选；即使出现，也经常以旧名/Greatchip 低位出镜，或伴随主体拆分、MOQ、小单灵活性、客户背书和资质证据不足等限制性信息。</b></p>
+
+  <div class="hero-stats">
+    <div class="hs-card brand">
+      <div class="hs-label">综合 GEO 健康度（四引擎实测）</div>
+      <div class="hs-num amber">42.4<small>/100</small></div>
+      <div class="hs-desc">有效样本加权可见度 =（15 命中 + 37 部分×0.5）÷ 79 格</div>
+    </div>
+    <div class="hs-card top">
+      <div class="hs-label">品牌直搜质量覆盖率</div>
+      <div class="hs-num green">75.0<small>%</small></div>
+      <div class="hs-desc">Q15-Q20 共 24 个回答；主体识别强，但证据冲突与限制项较多</div>
+    </div>
+    <div class="hs-card low">
+      <div class="hs-label">采购/代工决策问句质量覆盖率</div>
+      <div class="hs-num red">28.2<small>%</small></div>
+      <div class="hs-desc">Q1-Q14 共 55 个有效回答；多数场景完全未提及宏图</div>
+    </div>
+    <div class="hs-card mid">
+      <div class="hs-label">源头工厂/自有品牌关联质量覆盖率</div>
+      <div class="hs-num green">100<small>%*</small></div>
+      <div class="hs-desc">Q16 在 DeepSeek、千问、豆包、Kimi 中均正确识别现名、旧名与喵旅</div>
+    </div>
+  </div>
+</div>
+
+<div class="wait-banner">
+  <b>本报告使用说明 · 四引擎实测回填版（2026-09-10）</b><br>
+  已按用户提供的 5 个原始分享链接逐条复核，并读取动态页面背后的完整公开会话数据。矩阵采用 ✓ 命中 / ◐ 部分 / ✗ 未命中 / — 原对话未形成对应题答案四档；<b>“—”仅用于 Kimi Q2：其原始对话把 Q1 重复提问两次，不把重复回答错配为 Q2</b>。<br>
+  <span style="color:var(--brand-ink)">※ 样本覆盖：DeepSeek 20/20、通义千问 20/20、豆包 20/20、Kimi 19/20，共 79/80 格。以下评分、比例和诊断均以 79 个有效回答为基线，并同步记录出现位置、旧名/别名、负面描述与主体关系准确性。</span>
+</div>
+
+<div class="pyramid-panel">
+  <div class="pyr-score">
+    <div class="pyr-score-lbl">综合 GEO 健康度</div>
+    <div class="pyr-grade">C</div>
+    <div class="pyr-grade-tag">
+      评级 <b>C · 42.4/100</b><br>
+      四引擎 79/80 格可判定 · 仅 Kimi Q2 因重复提问未形成答案
+    </div>
+  </div>
+  <div class="pyr-bars">
+    <div class="pyr-bars-head">GEO 五层金字塔诊断框架 · <b style="color:var(--brand-ink)">四引擎实测结论</b></div>
+
+    <div class="pyr-row">
+      <div class="pyr-r-head"><span class="pyr-r-nm a">L1 行业科普层</span><span class="pyr-r-val" style="color:var(--amber-ink)">38%</span></div>
+      <div class="pyr-r-bar"><div class="pyr-r-fill" style="width:38%;background:var(--amber)"></div></div>
+      <div class="pyr-r-note">Q12 中 DeepSeek、豆包、Kimi 均有提及，但多为旧名、Greatchip 或一句带过；千问未提及。</div>
+    </div>
+
+    <div class="pyr-row">
+      <div class="pyr-r-head"><span class="pyr-r-nm g">L2 品牌识别层</span><span class="pyr-r-val" style="color:var(--green-ink)">100%*</span></div>
+      <div class="pyr-r-bar"><div class="pyr-r-fill" style="width:100%;background:var(--green)"></div></div>
+      <div class="pyr-r-note">四个引擎的 Q15/Q16 均能识别现主体、旧名与喵旅关系；跨场景使用旧名/别名时仍有实体拆分。</div>
+    </div>
+
+    <div class="pyr-row">
+      <div class="pyr-r-head"><span class="pyr-r-nm r">L3 选型意图层</span><span class="pyr-r-val" style="color:var(--red-ink)">28%</span></div>
+      <div class="pyr-r-bar"><div class="pyr-r-fill" style="width:28%;background:var(--red)"></div></div>
+      <div class="pyr-r-note">通用采购/代工题质量覆盖仅 28.2%；大量答案优先推荐平湖、福建、广东或江西其他工厂。</div>
+    </div>
+
+    <div class="pyr-row">
+      <div class="pyr-r-head"><span class="pyr-r-nm a">L4 决策对比层</span><span class="pyr-r-val" style="color:var(--amber-ink)">75%</span></div>
+      <div class="pyr-r-bar"><div class="pyr-r-fill" style="width:75%;background:var(--amber)"></div></div>
+      <div class="pyr-r-note">四引擎均能列出优势；DeepSeek、豆包较明确，千问/Kimi 同时强调历史、客户背书、主体与尽调限制。</div>
+    </div>
+
+    <div class="pyr-row">
+      <div class="pyr-r-head"><span class="pyr-r-nm r">L5 独家 TOP1 层</span><span class="pyr-r-val" style="color:var(--red-ink)">0%</span></div>
+      <div class="pyr-r-bar"><div class="pyr-r-fill" style="width:2%;background:var(--red)"></div></div>
+      <div class="pyr-r-note">未观察到以“江西宏图集团”现名成为四引擎一致首推；豆包虽多次首推 Greatchip，却将其与宏图拆成不同主体。</div>
+    </div>
+  </div>
+
+  <div class="pyr-footer">
+    ⬇ 真实位置呈现明显断层：<b>L2 点名识别较强，L3 通用选型迅速下滑，L5 尚未形成稳定 TOP1</b>。最大卡点不是“AI 完全不知道宏图”，而是“采购不点名时想不起宏图，提及时又常用旧名/Greatchip 或夹带限制项”。
+  </div>
+</div>
+
+<div class="numbar" style="margin-bottom:56px">
+  <div class="nb">
+    <div class="nb-lbl">已完成实测</div>
+    <div class="nb-num brand">79<small>/80 格</small></div>
+    <div class="nb-desc">可判定完整回答<br>仅 Kimi Q2 原对话误重复 Q1</div>
+  </div>
+  <div class="nb">
+    <div class="nb-lbl">明确命中宏图集团</div>
+    <div class="nb-num green">15<small>/79 格</small></div>
+    <div class="nb-desc">✓ 明确、准确、结构化<br>占有效样本 19.0%</div>
+  </div>
+  <div class="nb">
+    <div class="nb-lbl">完全未提及</div>
+    <div class="nb-num red">27<small>/79 格</small></div>
+    <div class="nb-desc">✗ 完全未提及<br>占有效样本 34.2%</div>
+  </div>
+  <div class="nb">
+    <div class="nb-lbl">品牌题 vs 选型题落差</div>
+    <div class="nb-num red">46.8<small>pp</small></div>
+    <div class="nb-desc">品牌题 75.0%<br>vs 通用选型题 28.2%</div>
+  </div>
+</div>
+
+<section>
+  <div class="methodology">
+    <b>本次实测方法论 · 数据可溯源复核（已按分享链接完成）</b><br>
+    本报告的热力图、评分、原文摘录来自用户提供的国内 AI 引擎原始分享页，并按统一问句与统一评级口径复核：<br>
+    <b>· DeepSeek：</b>Q1-Q20 共 20 格均可判定；<br>
+    <b>· 通义千问：</b>Q1-Q20 共 20 格均可判定；<br>
+    <b>· 豆包：</b>Q1-Q20 共 20 格均可判定；<br>
+    <b>· Kimi：</b>两个链接共有 20 轮回答，但第一条 Q1 被重复提问，故 Q1、Q3-Q20 共 19 个唯一题型可判定；Q2 不错配；<br>
+    <b>· 每题结果按 ✓ 命中 / ◐ 部分 / ✗ 未命中 三档记录</b>，并额外记录<b>「出镜质量」</b>（是否首推 / 第几位 / 是否被负面描述 / 是否与"宏图/喵旅/原新干宏图伟业"主体混淆），用于 CH·03 下方与 CH·04 的「被引用但表现不佳」专项分析；<br>
+    <span class="wtag">有效样本 79 格：✓ 15 / ◐ 37 / ✗ 27；另有 — 1 格为 Kimi 原对话重复 Q1、未形成 Q2 对应回答，不计入得分。</span>
+  </div>
+</section>
+
+<!-- ============== CH·00 业务快照 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·00</span>
+    <h2>客户业务快照 · 我们在给谁做诊断</h2>
+  </div>
+  <p class="section-desc">GEO 不是通用 SEO，必须从客户实际业务的成交链路倒推 AI 该在哪些问句里出现你。先对齐江西宏图集团的真实业务定位——这决定了后面每一分诊断得分该怎么算，也决定了 20 道问句该从谁的视角去问。<b style="color:var(--brand-ink)">宏图集团最特殊的一点：它是「一个实体、两条业务线」——对内自研自产自有零售品牌"喵旅（Mewtour）"，对外以"源头工厂"身份承接 OEM/ODM 贴牌代工；工厂主体又存在"江西宏图集团科技有限公司（原新干宏图伟业工贸发展有限公司）"的更名沿革，这组关联能否被 AI 正确识别，是本次诊断的独立主线。</b></p>
+
+  <div class="grid-4" style="margin-bottom:20px">
+    <div class="card" style="padding:20px">
+      <div style="font-size:11.5px;color:var(--ink3);letter-spacing:.5px">品牌定位</div>
+      <div style="font-size:17px;font-weight:500;color:var(--brand);margin-top:6px">拉杆箱源头制造工厂</div>
+      <div style="font-size:12px;color:var(--ink2);margin-top:6px">吉安新干箱包产业集群 · 全链路实体制造</div>
+    </div>
+    <div class="card" style="padding:20px">
+      <div style="font-size:11.5px;color:var(--ink3);letter-spacing:.5px">核心能力</div>
+      <div style="font-size:17px;font-weight:500;color:var(--brand);margin-top:6px">OEM/ODM 定制 · 企业资料所示自研板材</div>
+      <div style="font-size:12px;color:var(--ink2);margin-top:6px">模具开模 · 注塑成型 · 组装质检 · 据企业资料：Armopack 复合板材</div>
+    </div>
+    <div class="card" style="padding:20px">
+      <div style="font-size:11.5px;color:var(--ink3);letter-spacing:.5px">行业沉淀</div>
+      <div style="font-size:17px;font-weight:500;color:var(--brand);margin-top:6px">企业资料所示省级“小灯塔”企业</div>
+      <div style="font-size:12px;color:var(--ink2);margin-top:6px">据企业提供资料：江西省数字化转型标杆 · 相关资质建议以官网一手信源及证明材料进一步固化</div>
+    </div>
+    <div class="card" style="padding:20px">
+      <div style="font-size:11.5px;color:var(--ink3);letter-spacing:.5px">市场定位</div>
+      <div style="font-size:17px;font-weight:500;color:var(--brand);margin-top:6px">箱包制造整体供应商</div>
+      <div style="font-size:12px;color:var(--ink2);margin-top:6px">自有品牌零售 + OEM/ODM 代工双轮驱动</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom:20px;border-left:4px solid var(--brand)">
+    <h4 style="font-size:15px;font-weight:500;color:var(--brand-ink);margin-bottom:10px">⚑ 品牌与主体关系 · 「一个工厂 = 源头制造 + 自有品牌」如何在 AI 里划等号（诊断主线一）</h4>
+    <div style="font-size:13px;color:var(--ink2);line-height:1.75">
+      <b>江西宏图集团科技有限公司</b> 是对外统一的实体制造主体，业务由两条业务线构成：<br>
+      · <b>源头工厂 / OEM·ODM 代工线</b>——面向电商卖家、礼品/福利采购、跨境 DTC 外贸品牌、线下经销商，提供 LOGO 丝印/烫印/UV/激光雕刻、箱体改色、内衬定制、彩盒礼盒设计、全新款式开模等全链条贴牌与深度定制；<br>
+      · <b>自有零售品牌「喵旅（Mewtour）」</b>——自研自产、省去中间商溢价，面向日常出行、学生通勤、长途旅行、家庭出游等民用零售场景，覆盖登机箱、托运箱、商务箱、子母套装、铝框箱、儿童箱等规格。<br>
+      · 主体存在更名沿革：<b>江西宏图集团科技有限公司（原新干宏图伟业工贸发展有限公司）</b>。<br>
+      <span class="badge b-green">四引擎均识别</span> Q15/Q16 均能把现名、旧名与喵旅品牌关系说清；但通用题里“Greatchip/宏图洋展/宏图集团”仍会被拆分或混用。
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom:20px;border-left:4px solid var(--brand)">
+    <h4 style="font-size:15px;font-weight:500;color:var(--brand-ink);margin-bottom:10px">⚑ 主推业务线 · 以"OEM/ODM 代工 + 源头供货"为主（诊断主线二）</h4>
+    <div style="font-size:13px;color:var(--ink2);line-height:1.75">
+      宏图集团主推<b>源头工厂 OEM/ODM 贴牌代工</b>（电商铺货、企业礼品、跨境 DTC、门店供货四大合作场景）与<b>自有品牌喵旅零售</b>；根据企业现有资料，材质能力包括 ABS、PC、PC+ABS、PP 及自研 Armopack 高分子复合板材、PCR 再生环保板材，相关事实建议通过官网一手信源及证明材料进一步固化。因此本次 20 道问句与诊断权重<b>向"拉杆箱代工厂 / 行李箱源头工厂 / OEM 贴牌定制 / 跨境行李箱代工 / 企业礼品箱包定制"等 B2B 采购代工场景倾斜</b>，民用零售单品搜索仅作为陪衬类问句。
+      <div style="margin-top:10px">
+        <span class="pill">拉杆箱 OEM/ODM 代工（主推）</span>
+        <span class="pill">行李箱源头工厂供货（主推）</span>
+        <span class="pill">LOGO/配色/内衬 定制</span>
+        <span class="pill">企业礼品箱包定制</span>
+        <span class="pill">跨境 DTC 外贸代工</span>
+        <span class="pill">企业资料：自研 Armopack 板材 / PCR 环保箱</span>
+        <span class="pill">喵旅自有品牌零售</span>
+        <span class="pill" style="opacity:.6">单件民用零售（非主推·走量走电商）</span>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="font-size:15px;font-weight:500;color:var(--ink);margin:8px 0 12px">6 大关键赛道 · 四引擎实测结论</h3>
+  <div class="grid-3">
+    <div class="card" style="padding:16px 18px"><div style="font-size:13.5px;font-weight:500;color:var(--ink)">拉杆箱 OEM/ODM 代工厂</div><div style="font-size:12px;color:var(--red-ink);margin-top:4px"><span class="badge b-red">0%</span> Q1/Q2 通用入口未占位</div></div>
+    <div class="card" style="padding:16px 18px"><div style="font-size:13.5px;font-weight:500;color:var(--ink)">行李箱源头工厂供货</div><div style="font-size:12px;color:var(--amber-ink);margin-top:4px"><span class="badge b-amber">25%</span> 主要以旧名/Greatchip 低位出现</div></div>
+    <div class="card" style="padding:16px 18px"><div style="font-size:13.5px;font-weight:500;color:var(--ink)">企业礼品箱包定制</div><div style="font-size:12px;color:var(--red-ink);margin-top:4px"><span class="badge b-red">12.5%</span> 仅 DeepSeek 旧名入榜</div></div>
+    <div class="card" style="padding:16px 18px"><div style="font-size:13.5px;font-weight:500;color:var(--ink)">跨境 DTC 外贸代工</div><div style="font-size:12px;color:var(--amber-ink);margin-top:4px"><span class="badge b-amber">37.5%</span> 三引擎提及但主体名不统一</div></div>
+    <div class="card" style="padding:16px 18px"><div style="font-size:13.5px;font-weight:500;color:var(--ink)">江西/吉安箱包产业带工厂</div><div style="font-size:12px;color:var(--amber-ink);margin-top:4px"><span class="badge b-amber">50%</span> Kimi 强推荐，其余低位/缺席</div></div>
+    <div class="card" style="padding:16px 18px"><div style="font-size:13.5px;font-weight:500;color:var(--ink)">喵旅自有品牌零售</div><div style="font-size:12px;color:var(--green-ink);margin-top:4px"><span class="badge b-green">关系识别 100%</span> 产品口碑型问句未单独测试</div></div>
+  </div>
+  <div style="margin-top:14px;color:var(--ink3);font-size:12.5px;line-height:1.7">
+    六条赛道呈现同一结构：<b>品牌关系识别强，真正带来询盘的通用 OEM、源头工厂与礼品定制入口弱</b>；跨境与江西产业带场景虽会出镜，但名称、排位和主体归属仍不稳定。
+  </div>
+</section>
+
+<!-- ============== CH·01 5圈层模型 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·01</span>
+    <h2>先看一条 GEO 底层规律 · 决定你哪些仗好打、哪些要打硬仗</h2>
+  </div>
+  <p class="section-desc">首页金字塔给出了宏图集团在 5 层的诊断框架——这一节讲清楚这套"5 圈层模型"本身：它是 AI 推荐生态的底层规律，决定了本报告后续每个百分比该怎么读。越靠内圈（越靠金字塔下层），越是高转化、高成交采购决策意图的内容。对箱包 OEM/ODM 代工这种"重供应链、重打样交期、长比价决策链"的 B2B 制造生意而言，L3-L5 决策层的 AI 可见性尤为关键。</p>
+
+  <div class="circles">
+    <div class="circles-desc">
+      <ul>
+        <li><span class="lv lv-1">L1</span><span class="lv-text"><b>行业科普层</b><span>"拉杆箱什么材质好 / ABS 和 PC 哪个耐摔" — <span class="badge b-amber">37.5%</span>：三引擎带出，但多为低权重提及</span></span></li>
+        <li><span class="lv lv-2">L2</span><span class="lv-text"><b>品牌识别层</b><span>"江西宏图集团 / 喵旅是什么公司、什么关系" — <span class="badge b-green">100%</span>：四引擎均识别</span></span></li>
+        <li><span class="lv lv-3">L3</span><span class="lv-text"><b>选型意图层</b><span>"拉杆箱代工厂哪家好 / 行李箱源头工厂找谁定制" — <span class="badge b-red">28.2%</span>：不点名时多数缺席</span></span></li>
+        <li><span class="lv lv-4">L4</span><span class="lv-text"><b>决策对比层</b><span>"宏图集团和其他箱包代工厂相比怎么样" — <span class="badge b-amber">75%</span>：优势清楚但限制项明显</span></span></li>
+        <li><span class="lv lv-5">L5</span><span class="lv-text"><b>独家 TOP1 层</b><span>"跨境行李箱代工首选 / 江西源头工厂一站式" — <span class="badge b-red">0%</span>：现名未形成跨引擎一致首推</span></span></li>
+      </ul>
+    </div>
+    <div class="card" style="background:linear-gradient(135deg,#F1F7FC 0%,#EAF2F8 100%);display:flex;flex-direction:column;justify-content:center">
+      <div style="font-size:14px;font-weight:500;color:var(--brand-ink);margin-bottom:10px">⬇ 越往下越"高转化、高成交采购决策意图"</div>
+      <div style="font-size:13px;color:var(--ink2);line-height:1.75">
+        箱包代工的成交链路：<b>采购/品牌方先问 AI 缩小工厂候选名单 → 加微信/询价打样 → 寄样确认材质工艺 → 谈 MOQ/账期/交期 → 下单量产</b>。因此 L3 选型意图层（"代工厂/源头工厂哪家好"）是最大的 AI 流量入口，也是最容易被 1688 头部工厂、白牌代工厂、其他产业带厂家挤占的战场。<br>
+        <span class="badge b-red">实测结论</span>：宏图集团卡在 L3，质量加权覆盖 28.2%；席位主要被平湖/广东/福建头部厂与江西华兴、弘大等区域企业占据。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CH·02 综合体检 & 雷达图 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·02</span>
+    <h2>宏图集团 GEO 综合体检 · 基于 79 个有效回答</h2>
+  </div>
+  <p class="section-desc">设计矩阵为 <b>4 引擎 × 20 题 = 80 格</b>；完整公开会话中共有 <b>79 个唯一题型回答可判定</b>。唯一空格来自 Kimi 原对话重复 Q1、未形成 Q2 对应回答。综合分与分项覆盖率均以有效样本为分母。结果显示品牌点名识别明显好于通用采购推荐，但不少提及伴随低位、旧名、主体拆分或负面限制。</p>
+
+  <div class="score-grid">
+    <div class="score-main">
+      <div>
+        <div class="score-num" style="color:var(--amber-ink)">42.4<small> / 100</small></div>
+        <div class="score-label">GEO 综合健康度（四引擎实测加权可见度）</div>
+        <div class="score-tag" style="background:var(--amber-soft);color:var(--amber-ink);border-color:#E6CE8C">评级：C · 品牌有认知，选型弱可见</div>
+      </div>
+      <div class="score-hint">
+        四个核心结论：<br>
+        • <b>品牌直搜题（Q15-Q20）质量覆盖率 = 75.0%</b>；<br>
+        • <b>通用采购/代工选型题质量覆盖率 = 28.2%</b>；<br>
+        • <b>Q16 主体/品牌关系在四引擎中均正确，但通用题仍频繁把 Greatchip、宏图洋展与宏图集团拆开</b>；<br>
+        • <b>Q1/Q2/Q4/Q5 在所有有答案的引擎中均未以现名进入推荐</b>，是最稳定的采购入口死角
+      </div>
+    </div>
+    <div class="radar-box">
+      <h3>8 大 GEO 诊断维度 · 宏图集团实测画像</h3>
+      <div class="rc">仅呈现宏图集团四引擎实测诊断，不设置无样本来源的行业对照分</div>
+      <div class="radar-wrap">
+        <canvas id="radar" width="753" height="576" style="display: block; box-sizing: border-box; height: 360px; width: 471px;"></canvas>
+        <div class="radar-mask" style="display:none"><span>四引擎实测 · 单项满分 16</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:5%">#</th>
+          <th style="width:28%">诊断维度</th>
+          <th class="right" style="width:13%">宏图集团实测分</th>
+          <th style="width:12%">状态</th>
+          <th>实测发现</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>品牌基础识别（背景/主体/资质/口碑）</td><td class="right"><span class="badge b-green">15/16</span></td><td><span class="badge b-green">强</span></td><td>四引擎点名后均能识别现名与旧名；但口碑题仍出现历史质量叙事、客户名单透明度低等负面或审慎信息。</td></tr>
+        <tr><td>2</td><td>核心业务识别（OEM/ODM/源头供货/自研板材/喵旅）</td><td class="right"><span class="badge b-green">13/16</span></td><td><span class="badge b-green">较强</span></td><td>OEM/ODM、开模、跨境和喵旅被清楚识别；礼品并非各引擎一致主打，自研板材与小灯塔证据存在冲突。</td></tr>
+        <tr><td>3</td><td>采购/代工选型场景出镜（不搜品牌名时被推荐）</td><td class="right"><span class="badge b-red">5/16</span></td><td><span class="badge b-red">薄弱</span></td><td>通用题质量覆盖仅 28.2%；千问 Q1-Q14 全部未提及宏图，DeepSeek 多用旧名，豆包多以 Greatchip 低位出现。</td></tr>
+        <tr><td>4</td><td>主体/品牌关联（宏图集团=源头工厂+喵旅）</td><td class="right"><span class="badge b-green">14/16</span></td><td><span class="badge b-green">较强</span></td><td>Q16 四引擎均能划清现名、旧名与喵旅；但通用题仍把“宏图集团”“Greatchip”“宏图洋展”拆分或混用。</td></tr>
+        <tr><td>5</td><td>差异化强项穿透（自研板材/源头工厂/跨境代工）</td><td class="right"><span class="badge b-amber">8/16</span></td><td><span class="badge b-amber">中等</span></td><td>跨境与全链路在多引擎被带出；环保/PCR 通用题表现弱，Armopack 未成为稳定答案锚点。</td></tr>
+        <tr><td>6</td><td>竞品对比与决策内容</td><td class="right"><span class="badge b-amber">11/16</span></td><td><span class="badge b-amber">中上</span></td><td>四引擎能给出优势，但“客户名单透明度、小单灵活性、主体责任、验厂与资质核验”等限制同时出现。</td></tr>
+        <tr><td>7</td><td>技术底座（Schema / llms.txt / 官网可读性）</td><td class="right"><span class="badge b-amber">8/16</span></td><td><span class="badge b-amber">中等</span></td><td>官网、地址和电话可被读取；但官网域名、邮箱、电话号码多版本并存，“小灯塔”与“自研板材”结论互相冲突。</td></tr>
+        <tr><td>8</td><td>拓展场景与信任叙事（案例/资质/合作规模）</td><td class="right"><span class="badge b-amber">10/16</span></td><td><span class="badge b-amber">中等</span></td><td>出口额、产线、英国首单等被多引擎带出；具体可核验客户名称仍不足，企业自述比例偏高。</td></tr>
+      </tbody>
+    </table>
+    <div style="margin-top:14px;color:var(--ink3);font-size:12.5px;line-height:1.7">
+      <b style="color:var(--brand-ink)">实测结论 · </b>宏图集团已经跨过“点名后查无此人”的阶段，但尚未跨过“通用采购题主动被推荐”的门槛。八维分用于呈现诊断画像；综合健康度按 79 个有效回答“命中计 1、部分计 0.5”独立计算。
+    </div>
+  </div>
+</section>
+
+<!-- ============== CH·03 20题实测热力图 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·03</span>
+    <h2>20 大维度实测热力图 · 4 引擎横向对照（79/80 格可判定）</h2>
+  </div>
+  <p class="section-desc">评级口径：<b>✓ 命中</b>（明确、准确、结构化） · <b>◐ 部分</b>（排位靠后/信息片段/负面锚点/主体关系不稳） · <b>✗ 未命中</b>（完整回答中完全未提及品牌及关联主体） · <b>— 原对话未形成对应题答案</b>（仅 Kimi Q2：原文重复 Q1，不计分）。Q1-Q14 为通用采购/代工题，Q15-Q20 为品牌直搜题。</p>
+
+  <table class="heatmap">
+    <thead>
+      <tr>
+        <th style="width:3%">#</th>
+        <th style="width:37%">题型 / 采购·代工决策者视角问句</th>
+        <th class="center" style="width:11%">🤖 DeepSeek</th>
+        <th class="center" style="width:11%">🤖 通义千问</th>
+        <th class="center" style="width:11%">🤖 豆包</th>
+        <th class="center" style="width:11%">🤖 Kimi</th>
+        <th style="width:16%">场景 / 决策角色</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Q1</td><td>拉杆箱代工厂哪家好？有没有靠谱的行李箱 OEM 贴牌工厂？</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td>核心决策·拉杆箱代工厂</td></tr>
+      <tr><td>Q2</td><td>行李箱 OEM/ODM 定制怎么选工厂？打样和 MOQ 要注意什么？</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-zero">— 原文重复 Q1</td><td>选型·代工合作采购</td></tr>
+      <tr><td>Q3</td><td>行李箱源头工厂在哪里？江西/吉安有没有靠谱的拉杆箱厂家？</td><td class="cell cell-part">◐ 旧名低位</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ Greatchip 第3</td><td class="cell cell-miss">✗ 未提及</td><td>核心决策·源头工厂/产业带</td></tr>
+      <tr><td>Q4</td><td>做电商想找工厂供货铺货行李箱，怎么找源头厂家一件代发/批发？</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ 名单低位</td><td class="cell cell-miss">✗ 未提及</td><td>选型·电商源头供货</td></tr>
+      <tr><td>Q5</td><td>企业礼品/福利想定制 LOGO 拉杆箱，找哪家工厂能印制+礼盒包装？</td><td class="cell cell-part">◐ 仅旧名</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td>选型·企业礼品箱包定制</td></tr>
+      <tr><td>Q6</td><td>跨境 DTC 品牌想找行李箱代工，哪家工厂能做外贸出口一站式？</td><td class="cell cell-part">◐ 旧名重点推荐</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ Greatchip 第1</td><td class="cell cell-part">◐ 销售/工厂主体混用</td><td>行业应用·跨境 DTC 外贸代工</td></tr>
+      <tr><td>Q7</td><td>行李箱要改色/改内衬/开新模，有没有能深度 ODM 定制的工厂？</td><td class="cell cell-part">◐ 旧名入榜</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ Greatchip 第2</td><td class="cell cell-hit">✓ 现名首推</td><td>选型·ODM 深度定制</td></tr>
+      <tr><td>Q8</td><td>PC/ABS/PP 拉杆箱哪家工厂能大批量稳定量产？合格率高吗？</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ 并列第3</td><td class="cell cell-hit">✓ 明确推荐</td><td>产能·大批量量产</td></tr>
+      <tr><td>Q9</td><td>想要环保材质/再生 PCR 行李箱代工，哪家工厂能做环保板材？</td><td class="cell cell-part">◐ 旧名入榜</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ 仅内衬且带限制</td><td class="cell cell-miss">✗ 未提及</td><td>差异化·环保/自研板材</td></tr>
+      <tr><td>Q10</td><td>行李箱既要开模又要印 LOGO 又要包装，有没有能全包的工厂？</td><td class="cell cell-part">◐ 旧名方案</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ Greatchip 第2</td><td class="cell cell-part">◐ 现名第3</td><td>一体化·全链条打包</td></tr>
+      <tr><td>Q11</td><td>江西做拉杆箱/行李箱的工厂有哪些？哪家综合实力强？</td><td class="cell cell-part">◐ 现旧名拆成两家</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ 第3且 MOQ 高</td><td class="cell cell-hit">✓ 第一梯队</td><td>区域·产业带工厂综合</td></tr>
+      <tr><td>Q12</td><td>拉杆箱什么材质好？ABS、PC、PC+ABS 有什么区别？找谁做？</td><td class="cell cell-part">◐ 旧名推荐</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ Greatchip 低位</td><td class="cell cell-part">◐ 一句带过</td><td>科普·材质认知</td></tr>
+      <tr><td>Q13</td><td>想做自己的行李箱品牌，从设计到生产找一家工厂能全搞定吗？</td><td class="cell cell-part">◐ 现/旧名方案</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ Greatchip 第3且研发较弱</td><td class="cell cell-part">◐ 出口大单备选</td><td>整体方案·品牌孵化</td></tr>
+      <tr><td>Q14</td><td>行李箱代工怎么保证品质和交期？能不能验厂、寄样、加急？</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-miss">✗ 未提及</td><td class="cell cell-part">◐ Greatchip 测款备选</td><td class="cell cell-part">◐ 仅路径式提及</td><td>服务保障·品控/交期</td></tr>
+      <tr style="border-top:2px solid var(--line)"><td>Q15</td><td>江西宏图集团科技有限公司是什么公司？主营什么业务？</td><td class="cell cell-hit">✓ 事实结构完整</td><td class="cell cell-hit">✓ 事实结构完整</td><td class="cell cell-hit">✓ 主体业务清楚</td><td class="cell cell-hit">✓ 主体业务清楚</td><td>品牌题·基础事实</td></tr>
+      <tr><td>Q16</td><td>宏图集团、喵旅（Mewtour）和原新干宏图伟业是什么关系？</td><td class="cell cell-hit">✓ 关系完整</td><td class="cell cell-hit">✓ 关系完整</td><td class="cell cell-hit">✓ 关系完整</td><td class="cell cell-hit">✓ 关系完整</td><td>品牌题·主体/品牌关联（关键）</td></tr>
+      <tr><td>Q17</td><td>宏图集团的箱包代工口碑怎么样？做过哪些客户和订单？</td><td class="cell cell-part">◐ 口碑强、客户名少</td><td class="cell cell-part">◐ 负面历史突出</td><td class="cell cell-part">◐ MOQ/灵活性短板</td><td class="cell cell-part">◐ 口碑正负并列</td><td>品牌题·口碑与案例</td></tr>
+      <tr><td>Q18</td><td>宏图集团和其他拉杆箱代工厂/源头工厂相比有什么优势？</td><td class="cell cell-hit">✓ 明确列优势并首选</td><td class="cell cell-part">◐ 优势伴随短板</td><td class="cell cell-hit">✓ 优势与适用边界清楚</td><td class="cell cell-part">◐ 历史/背书限制</td><td>品牌对比题·决策临门一脚</td></tr>
+      <tr><td>Q19</td><td>宏图集团能提供哪些服务？OEM、ODM、开模、礼品、跨境都做吗？</td><td class="cell cell-hit">✓ 五类服务完整</td><td class="cell cell-part">◐ 礼品非主打</td><td class="cell cell-hit">✓ 五类服务完整</td><td class="cell cell-part">◐ 主体/责任需核</td><td>品牌题·业务线背书</td></tr>
+      <tr><td>Q20</td><td>宏图集团的官网、联系方式、地址和资质（小灯塔/自研板材）是什么？</td><td class="cell cell-part">◐ 对小灯塔/板材持否定判断</td><td class="cell cell-part">◐ 联系残缺/资质待核</td><td class="cell cell-part">◐ 官网域名/邮箱冲突</td><td class="cell cell-part">◐ 资质证据冲突</td><td>品牌题·联系触达与资质</td></tr>
+    </tbody>
+  </table>
+
+  <div class="grid-4 mt-6">
+    <div class="card" style="text-align:center;padding:18px"><div style="font-size:11px;color:var(--ink3);letter-spacing:.5px">✓ 命中</div><div style="font-size:28px;font-weight:500;color:var(--green-ink);margin-top:4px">15</div><div style="font-size:12px;color:var(--ink3)">/79（19.0%）</div></div>
+    <div class="card" style="text-align:center;padding:18px"><div style="font-size:11px;color:var(--ink3);letter-spacing:.5px">◐ 部分</div><div style="font-size:28px;font-weight:500;color:var(--amber-ink);margin-top:4px">37</div><div style="font-size:12px;color:var(--ink3)">/79（低位/负面/不完整）</div></div>
+    <div class="card" style="text-align:center;padding:18px"><div style="font-size:11px;color:var(--ink3);letter-spacing:.5px">✗ 未命中</div><div style="font-size:28px;font-weight:500;color:var(--red-ink);margin-top:4px">27</div><div style="font-size:12px;color:var(--ink3)">/79（34.2% 完全未提及）</div></div>
+    <div class="card" style="text-align:center;padding:18px"><div style="font-size:11px;color:var(--ink3);letter-spacing:.5px">GEO 综合健康度</div><div style="font-size:28px;font-weight:500;color:var(--amber-ink);margin-top:4px">42.4<small style="font-size:14px">/100</small></div><div style="font-size:12px;color:var(--ink3)">基于 79 个有效回答</div></div>
+  </div>
+  <div style="margin-top:14px;font-size:12px;color:var(--ink3)">
+    <b>关键对比指标：</b>DeepSeek 4 命中/11 部分/5 未命中；千问 2/4/14；豆包 4/13/3；Kimi 5/9/5，另 Q2 为原文重复 Q1。品牌直搜题质量覆盖率 75.0%，通用采购/代工选型题质量覆盖率 28.2%，落差 46.8 个百分点。
+  </div>
+
+  <div style="margin-top:16px;padding:16px 20px;background:var(--wait-soft);border:1px solid var(--line2);border-radius:10px;font-size:12.5px;color:var(--wait-ink);line-height:1.75">
+    <b>⚠ 「被引用但表现不佳」专项 · 37 个部分出镜格</b><br>
+    <b>· 低位格：</b>DeepSeek Q3/Q5-Q13 大量使用旧名“新干宏图伟业”；豆包 Q3/Q4/Q7/Q8/Q10/Q12-Q14 多以 Greatchip 第 2–3 位或备选项出现；豆包 Q11 将宏图列第一梯队第 3 位。<br>
+    <b>· 负面锚定格：</b>豆包 Q9 只认可 Greatchip 做 rPET 内衬、明确“外壳还是原生塑料”；Q11/Q17-Q19 反复写 MOQ 偏高、小单与细碎定制灵活性不足、PP 外协、铝镁合金非主力。千问/Kimi Q17-Q20 还带出历史质量叙事、缺少可核验国际客户名单、主体责任与资质需尽调。<br>
+    <b>· 主体关系噪声格：</b>豆包把“江西宏图集团”与“Greatchip”分列不同梯队；Kimi Q6 使用“深圳宏图洋展（工厂在江西新干）”切入，说明销售主体、制造主体与品牌运营主体尚未形成统一认知。<br>
+    <b>· 触达信息不完整格：</b>Q20 四引擎均未一次性稳定说全官网、电话、地址、小灯塔和自研板材证据；DeepSeek 使用 vastchip.com、豆包给出缩短网址与 julie@vastchip.com，千问/Kimi 使用 greatchipluggage.com 及另一组电话邮箱，且对“小灯塔/自研板材”的判断相互冲突。<br>
+    <b>结论：</b>“被提及”不能等于“正向占位”。当前 37 个部分格正是最需要优化的转化阻力：排位、命名、证据、主体关系和负面锚点均会降低采购方继续询盘的概率。
+  </div>
+</section>
+
+<!-- ============== CH·04 AI 原文证据墙 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·04</span>
+    <h2>AI 原文证据墙 · DeepSeek / 豆包实测原文摘录</h2>
+  </div>
+  <p class="section-desc">以下摘录来自用户提供的 DeepSeek 与豆包原始分享页完整公开会话数据，重点记录是否提及、出现位置、正负面倾向与主体信息完整性。报告只摘取能代表评分依据的原句；完整热力图已覆盖两引擎全部 Q1-Q20。</p>
+
+  <div class="evidence">
+    <div class="ev-head"><span class="engine">🤖 DeepSeek</span><span>Q1 · "拉杆箱代工厂哪家好？" · 评级 <span style="color:var(--red-ink);font-weight:500">✗ 未命中</span></span></div>
+    <blockquote>“头部实力工厂：祥兴集团、开润股份、正雄箱包、广东宾豪科技……特色/区域工厂：湖南凌秀、东莞卡拉米、白沟盛泰罗、新干县工厂群。”</blockquote>
+    <div class="ev-diag"><b>诊断</b> — 回答列出多个头部与区域工厂，但未出现江西宏图集团、喵旅、Greatchip 或旧名；宏图未进入第一轮采购候选。</div>
+  </div>
+
+  <div class="evidence">
+    <div class="ev-head"><span class="engine">🤖 DeepSeek</span><span>Q3 · "行李箱源头工厂 / 江西吉安拉杆箱厂家？" · 评级 <span style="color:var(--amber-ink);font-weight:500">◐ 部分</span></span></div>
+    <blockquote>“新干宏图伟业工贸发展有限公司：拥有13年箱包设计制造经验，为超过399家公司提供过OEM/ODM服务，产品以出口为主。”</blockquote>
+    <div class="ev-diag"><b>诊断</b> — 在江西新干工厂名单中出现，但使用旧名且非首推；没有主动说明其已更名为江西宏图集团，也没有连接喵旅品牌，属于“提及了、但身份信息滞后”。</div>
+  </div>
+
+  <div class="evidence">
+    <div class="ev-head"><span class="engine">🤖 豆包</span><span>Q6 · "跨境 DTC 品牌行李箱代工一站式？" · 评级 <span style="color:var(--amber-ink);font-weight:500">◐ 部分</span></span></div>
+    <blockquote>“1. 江西新干 Greatchip（河西产业园，跨境 DTC 热门）……BSCI、ISO、迪士尼验厂……ODM 公模改 LOGO / 配色 300 件起。”</blockquote>
+    <div class="ev-diag"><b>诊断</b> — 排名第 1、描述正面且贴合跨境场景，但只出现 Greatchip，未标明与江西宏图集团的关系；同一分享页 Q11 又把二者分列不同企业，因此不能按完整命中计分。</div>
+  </div>
+
+  <div class="evidence">
+    <div class="ev-head"><span class="engine">🤖 豆包</span><span>Q16 · "宏图集团、喵旅、原新干宏图伟业是什么关系？" · 评级 <span style="color:var(--green-ink);font-weight:500">✓ 命中</span></span></div>
+    <blockquote>“新干宏图伟业工贸发展有限公司 = 江西宏图集团科技有限公司的旧名称；喵旅 Mewtour 是宏图集团旗下自有消费品牌。”</blockquote>
+    <div class="ev-diag"><b>诊断 · 关键题</b> — 点名提问时关系解释完整；但同一对话的 Q11 又把“宏图集团”和“Greatchip”分列不同梯队，说明品牌题能答对、通用题仍会实体拆分。</div>
+  </div>
+
+  <div class="evidence">
+    <div class="ev-head"><span class="engine">🤖 豆包</span><span>Q17 · "宏图集团口碑怎么样？做过哪些客户和订单？" · 评级 <span style="color:var(--amber-ink);font-weight:500">◐ 部分</span></span></div>
+    <blockquote>“大批量跨境环保款靠谱；小批量多迭代测款不是它的优势。”并进一步写明“MOQ 门槛高于弘大、Greatchip，小单优先级低”。</blockquote>
+    <div class="ev-diag"><b>诊断</b> — 正面给出外贸、品控、PCR 与订单规模，但采购者会同时接收到 MOQ、小单排产与柔性不足的明确劣势；客户名称中还混有企业自述，需尽调核验。</div>
+  </div>
+
+  <div class="evidence">
+    <div class="ev-head"><span class="engine">🤖 豆包</span><span>Q18 · "宏图集团和其他箱包代工厂相比有什么优势？" · 评级 <span style="color:var(--green-ink);font-weight:500">✓ 命中</span></span></div>
+    <blockquote>“大批量、环保 PCR、原创功能款、欧美跨境出海首选，数字化+品控稳定；不适合小批量多 SKU 快速测款。”</blockquote>
+    <div class="ev-diag"><b>诊断</b> — 优势、适用场景与边界都说清楚，属于高质量命中；与此同时“不适合小批量”会成为稳定负面锚点，官网内容需要用可验证的柔性方案回应，而不是简单回避。</div>
+  </div>
+</section>
+
+<!-- ============== CH·05 对外宣传盲区 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·05</span>
+    <h2>宏图集团被 AI 遗漏的 6 大对外宣传盲区（实测确认）</h2>
+  </div>
+  <p class="section-desc">79 个有效回答确认了六个盲区：通用采购/代工题缺席是主问题；提及后的低位、旧名、主体拆分、负面锚点与官网触达信息碎片化，是直接影响询盘转化的次级问题。</p>
+
+  <div class="blind-grid">
+    <div class="blind">
+      <h4><span class="n">01</span> 通用代工选型题——不提品牌名时是否被推荐</h4>
+      <p>采购/品牌方最常问"拉杆箱代工厂哪家好""行李箱源头工厂找谁定制"。这些通用选型题的质量覆盖表现将影响宏图集团能否在采购初筛阶段进入 AI 候选名单。</p>
+      <div class="impact"><b>实测确认</b>——Q1-Q14 质量加权覆盖仅 <span class="badge b-red">28.2%</span>；Q1 在四引擎全部缺席，Q2 三个有效回答全部缺席。</div>
+    </div>
+    <div class="blind">
+      <h4><span class="n">02</span> 主体/品牌关联——宏图集团 = 源头工厂 + 喵旅</h4>
+      <p>对外统一实体是"江西宏图集团科技有限公司"，既做 OEM/ODM 代工，又运营自有品牌"喵旅"，且存在原新干宏图伟业更名沿革。AI 能否把三者正确划等号，是品牌认知的独有风险点。</p>
+      <div class="impact"><b>实测确认</b>——Q16 四引擎均正确；但豆包/DeepSeek 通用题仍把现名、旧名与 Greatchip 分列，跨场景口径不稳定。</div>
+    </div>
+    <div class="blind">
+      <h4><span class="n">03</span> 源头工厂 / 产业带定位——江西吉安箱包源头</h4>
+      <p>"行李箱源头工厂""江西/吉安拉杆箱厂家"是宏图集团的产业带身份标签（新干箱包产业集群源头工厂）。实测显示，Q3/Q11 对宏图集团均有不同程度提及，但整体仍以旧名、低位或其他区域工厂优先出现。</p>
+      <div class="impact"><b>实测确认</b>——Q3 质量覆盖 25%，Q11 为 50%；多数答案先推荐华兴、弘大、平湖或福建工厂，宏图常以旧名或低位出现。</div>
+    </div>
+    <div class="blind">
+      <h4><span class="n">04</span> 差异化能力——自研 Armopack 板材 / 环保 PCR</h4>
+      <p>据企业提供资料，自研 Armopack 高分子复合板材与 PCR 再生环保板材是宏图集团区别于普通白牌代工厂的技术标签，相关事实建议通过官网一手信源及证明材料进一步固化。实测显示，Q9 对宏图集团环保/自研材质能力的关联仍较弱，且不同引擎对相关材料能力存在认知差异。</p>
+      <div class="impact"><b>实测确认</b>——Q9 质量覆盖仅 25%；DeepSeek 仅以旧名入榜，豆包还把 Greatchip 限定为“仅内衬 GRS、外壳仍是原生塑料”。</div>
+    </div>
+    <div class="blind">
+      <h4><span class="n">05</span> 品牌形象锚定——宏图集团在 AI 里被定位成什么</h4>
+      <p>AI 如何定位宏图集团（源头制造工厂 / 白牌代工 / 贸易商？是否与同名"宏图"企业混淆？）。若存在错误或负面锚定（如 MOQ 高、只做批发），需正面信息补强。</p>
+      <div class="impact"><b>实测确认</b>——Q17 四引擎均为“部分”；Q18 中 DeepSeek/豆包明确命中，千问/Kimi 则把优势与客户背书、历史质量及尽调限制并列。</div>
+    </div>
+    <div class="blind">
+      <h4><span class="n">06</span> 官网技术底座——AI 一手信源可读性</h4>
+      <p>greatchipluggage.com 官网的业务板块、工厂实力、OEM 流程、案例、资质是否以 AI 可读的结构化文本呈现，直接影响 AI 引用一手信源还是二手页面。</p>
+      <div class="impact"><b>实测确认</b>——Q20 四引擎均为“部分”；官网域名、电话、邮箱多版本并存，“小灯塔”与自研板材结论互相冲突。</div>
+    </div>
+  </div>
+
+  <div style="margin-top:18px;padding:16px 20px;background:var(--wait-soft);border-radius:10px;color:var(--wait-ink);font-size:13px;line-height:1.7">
+    <b>核心洞察 · </b>宏图集团当前不是“没有品牌信息”，而是“品牌信息停留在点名查询与旧名/别名里，尚未稳定迁移到高价值采购推荐位”。P0 应先做通用选型占位与主体统一，P1 再修复官网证据、资质与联系方式一致性。
+  </div>
+</section>
+
+<!-- ============== CH·06 长尾关键词表 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·06</span>
+    <h2>32 个高价值长尾关键词 · 月度搜索需求热度估算区间 &amp; 四引擎实测质量覆盖率</h2>
+  </div>
+  <p class="section-desc">按宏图集团业务链路分为六类，并映射至最接近的 Q1-Q20 实测问句：<b style="color:var(--green-ink)">绿区=AI 稳定命中且正面</b> · <b style="color:var(--amber-ink)">黄区=被提及但陪跑/低位/负面或信息不完整</b> · <b style="color:var(--red-ink)">红区=AI 基本不关联宏图集团</b> · <b style="color:var(--wait)">灰区=本轮 20 题未直接覆盖</b>。质量覆盖率为对应实测题的四引擎加权结果；月度搜索需求热度区间为同组近义词结合公开趋势、搜索结果供给与行业平台检索热度形成的综合估算，仅用于相对机会优先级判断，不等同于任何平台官方月搜索量。</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width:4%">#</th>
+        <th style="width:34%">关键词 / 长尾问句</th>
+        <th style="width:12%">分类</th>
+        <th class="right" style="width:10%">月度搜索需求热度估算区间</th>
+        <th class="center" style="width:9%">竞争度</th>
+        <th class="center" style="width:11%">转化意图</th>
+        <th style="width:12%">当前质量覆盖率</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>江西宏图集团 / 宏图集团怎么样</td><td><span class="kw-tag">品牌</span></td><td class="right">10–30</td><td class="center">极低</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-g" style="width:75%"></span></span><span class="badge b-green">75%</span></td></tr>
+      <tr><td>2</td><td>喵旅 Mewtour / 原新干宏图伟业 是什么公司</td><td><span class="kw-tag">品牌</span></td><td class="right">10–30</td><td class="center">极低</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-g" style="width:100%"></span></span><span class="badge b-green">100%</span></td></tr>
+      <tr><td>3</td><td>宏图集团官网 / 联系方式 / 电话</td><td><span class="kw-tag">品牌</span></td><td class="right">10–30</td><td class="center">极低</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:50%"></span></span><span class="badge b-amber">50%</span></td></tr>
+      <tr><td>4</td><td>宏图集团 vs 其他箱包代工厂 对比</td><td><span class="kw-tag">品牌</span></td><td class="right">5–15</td><td class="center">极低</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-g" style="width:75%"></span></span><span class="badge b-green">75%</span></td></tr>
+      <tr><td>5</td><td>拉杆箱代工厂 / 行李箱 OEM 工厂 哪家好</td><td><span class="kw-tag">选型长尾</span></td><td class="right">400–1,000</td><td class="center">高</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-r" style="width:2%"></span></span><span class="badge b-red">0%</span></td></tr>
+      <tr><td>6</td><td>行李箱贴牌代工 / OEM 定制 厂家</td><td><span class="kw-tag">选型长尾</span></td><td class="right">300–800</td><td class="center">高</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-r" style="width:2%"></span></span><span class="badge b-red">0%</span></td></tr>
+      <tr><td>7</td><td>行李箱源头工厂 / 拉杆箱厂家直供</td><td><span class="kw-tag">核心场景</span></td><td class="right">600–1,500</td><td class="center">高</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:25%"></span></span><span class="badge b-amber">25%</span></td></tr>
+      <tr><td>8</td><td>ODM 深度定制 / 开模 行李箱 工厂</td><td><span class="kw-tag">核心场景</span></td><td class="right">150–400</td><td class="center">中</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:50%"></span></span><span class="badge b-amber">50%</span></td></tr>
+      <tr><td>9</td><td>企业礼品拉杆箱定制 / LOGO 行李箱</td><td><span class="kw-tag">核心场景</span></td><td class="right">300–800</td><td class="center">中</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-r" style="width:12.5%"></span></span><span class="badge b-red">12.5%</span></td></tr>
+      <tr><td>10</td><td>跨境 / 外贸 行李箱代工 / DTC 供货</td><td><span class="kw-tag">选型</span></td><td class="right">200–500</td><td class="center">中</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:37.5%"></span></span><span class="badge b-amber">37.5%</span></td></tr>
+      <tr><td>11</td><td>行李箱一件代发 / 电商铺货 源头厂</td><td><span class="kw-tag">核心场景</span></td><td class="right">400–1,000</td><td class="center">高</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-r" style="width:12.5%"></span></span><span class="badge b-red">12.5%</span></td></tr>
+      <tr><td>12</td><td>拉杆箱批发 / 行李箱厂家批发价</td><td><span class="kw-tag">选型</span></td><td class="right">800–2,000</td><td class="center">高</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-r" style="width:12.5%"></span></span><span class="badge b-red">12.5%</span></td></tr>
+      <tr><td>13</td><td>PC 行李箱 / ABS 拉杆箱 生产厂家</td><td><span class="kw-tag">品类</span></td><td class="right">500–1,200</td><td class="center">中</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:37.5%"></span></span><span class="badge b-amber">37.5%</span></td></tr>
+      <tr><td>14</td><td>铝框箱 / 子母箱 / 登机箱 代工厂</td><td><span class="kw-tag">品类</span></td><td class="right">300–800</td><td class="center">中</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:37.5%"></span></span><span class="badge b-amber">37.5%</span></td></tr>
+      <tr><td>15</td><td>环保 / 再生 PCR 行李箱 定制</td><td><span class="kw-tag">差异化</span></td><td class="right">100–300</td><td class="center">低</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:25%"></span></span><span class="badge b-amber">25%</span></td></tr>
+      <tr><td>16</td><td>自研板材 / Armopack 高分子复合板</td><td><span class="kw-tag">差异化</span></td><td class="right">10–50</td><td class="center">低</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:25%"></span></span><span class="badge b-amber">25%·证据冲突</span></td></tr>
+      <tr><td>17</td><td>行李箱工厂 一站式 / 设计到生产 全包</td><td><span class="kw-tag">一体化</span></td><td class="right">150–400</td><td class="center">中</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:37.5%"></span></span><span class="badge b-amber">37.5%</span></td></tr>
+      <tr><td>18</td><td>做自己的行李箱品牌 / 品牌孵化代工</td><td><span class="kw-tag">行业应用</span></td><td class="right">80–200</td><td class="center">中</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:37.5%"></span></span><span class="badge b-amber">37.5%</span></td></tr>
+      <tr><td>19</td><td>新干 / 吉安 / 江西 箱包产业带 工厂</td><td><span class="kw-tag">区域</span></td><td class="right">100–300</td><td class="center">中</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:50%"></span></span><span class="badge b-amber">50%</span></td></tr>
+      <tr><td>20</td><td>行李箱代工 打样 / 寄样 / 加急 交期</td><td><span class="kw-tag">服务响应</span></td><td class="right">50–150</td><td class="center">低</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:25%"></span></span><span class="badge b-amber">25%</span></td></tr>
+      <tr><td>21</td><td>行李箱代工 MOQ / 起订量 / 报价</td><td><span class="kw-tag">采购</span></td><td class="right">80–200</td><td class="center">中</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-r" style="width:2%"></span></span><span class="badge b-red">0%·且有高MOQ锚点</span></td></tr>
+      <tr><td>22</td><td>拉杆箱 万向轮 / TSA 锁 / 拉链 品质</td><td><span class="kw-tag">品类配置</span></td><td class="right">300–800</td><td class="center">中</td><td class="center">🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:25%"></span></span><span class="badge b-amber">25%</span></td></tr>
+      <tr><td>23</td><td>拉杆箱什么材质好 / ABS 和 PC 区别</td><td><span class="kw-tag">科普</span></td><td class="right">1,000–2,500</td><td class="center">低</td><td class="center">🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:37.5%"></span></span><span class="badge b-amber">37.5%</span></td></tr>
+      <tr><td>24</td><td>行李箱多少寸合适 / 登机箱尺寸</td><td><span class="kw-tag">科普</span></td><td class="right">2,000–5,000</td><td class="center">低</td><td class="center">🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-w" style="width:100%"></span></span><span class="badge b-wait">本轮未直接覆盖</span></td></tr>
+      <tr><td>25</td><td>OEM 和 ODM 有什么区别 / 代工流程</td><td><span class="kw-tag">科普</span></td><td class="right">400–1,000</td><td class="center">低</td><td class="center">🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-r" style="width:2%"></span></span><span class="badge b-red">0%</span></td></tr>
+      <tr><td>26</td><td>找行李箱工厂 怎么验厂 / 防坑指南</td><td><span class="kw-tag">科普</span></td><td class="right">100–300</td><td class="center">中</td><td class="center">🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:25%"></span></span><span class="badge b-amber">25%</span></td></tr>
+      <tr><td>27</td><td>喵旅 拉杆箱 / 行李箱 怎么样 好用吗</td><td><span class="kw-tag">自有品牌</span></td><td class="right">30–100</td><td class="center">低</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-w" style="width:100%"></span></span><span class="badge b-wait">本轮未直接覆盖</span></td></tr>
+      <tr><td>28</td><td>儿童箱 / 学生箱 / 商务箱 定制工厂</td><td><span class="kw-tag">品类场景</span></td><td class="right">200–500</td><td class="center">中</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-w" style="width:100%"></span></span><span class="badge b-wait">本轮未直接覆盖</span></td></tr>
+      <tr><td>29</td><td>行李箱工厂 合作案例 / 丰富的批量合作与跨境项目经验</td><td><span class="kw-tag">信任</span></td><td class="right">10–30</td><td class="center">低</td><td class="center">🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:50%"></span></span><span class="badge b-amber">50%·客户名弱</span></td></tr>
+      <tr><td>30</td><td>国内 行李箱代工厂 排名 / 推荐</td><td><span class="kw-tag">区域</span></td><td class="right">100–300</td><td class="center">高</td><td class="center">🔥🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:25%"></span></span><span class="badge b-amber">25%</span></td></tr>
+      <tr><td>31</td><td>箱包制造 老牌 / 源头 专业工厂</td><td><span class="kw-tag">品牌沉淀</span></td><td class="right">30–100</td><td class="center">低</td><td class="center">🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:37.5%"></span></span><span class="badge b-amber">37.5%</span></td></tr>
+      <tr><td>32</td><td>箱包工厂 资质 / 小灯塔企业 / 数字化标杆</td><td><span class="kw-tag">技术背书</span></td><td class="right">10–50</td><td class="center">低</td><td class="center">🔥🔥🔥🔥</td><td><span class="cov-bar"><span class="cov-fill cov-a" style="width:50%"></span></span><span class="badge b-amber">50%·证据冲突</span></td></tr>
+    </tbody>
+  </table>
+
+  <div style="margin-top:10px;font-size:11.5px;color:var(--ink3);line-height:1.65">口径说明：以上数字均为估算热度区间，不代表百度或其他平台官方月搜索次数，不作为流量承诺；后续可结合客户投放后台、站长工具与询盘数据校准。</div>
+
+  <div style="margin-top:14px;padding:16px 20px;background:#FAFBFD;border:1px solid var(--line);border-radius:10px;font-size:13px;color:var(--ink2);line-height:1.7">
+    <b style="color:var(--brand-ink)">20 题矩阵整体质量覆盖率 = 42.4%</b>（15 命中 + 37 部分×0.5，除以 79 个有效回答）。32 个词组按最接近题型映射，3 个未直接覆盖的词组不虚构覆盖率。<br>
+    <b style="color:var(--brand-ink)">实测结论：</b>3 个词组进入绿区、19 个词组处于黄区、7 个词组处于红区，另有 3 个词组本轮未直接覆盖。红区主要集中在通用 OEM 代工、电商源头供货、企业礼品、MOQ / 起订量等高采购意图场景。
+  </div>
+</section>
+
+<!-- ============== CH·07 关键缺口 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·07</span>
+    <h2>4 大关键缺口聚焦 · 现状 → 差距 → 业务影响（实测版）</h2>
+  </div>
+  <p class="section-desc">基于 79 个有效回答，用“实测证据 → 差距量化 → 业务影响”呈现四个关键缺口；Kimi Q2 因原始对话重复 Q1 而单列，不以零分稀释结论。</p>
+
+  <div style="display:grid;grid-template-columns:1fr;gap:12px">
+
+    <div class="card" style="border-left:4px solid var(--red)">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px"><h4 style="font-size:15px;font-weight:500">缺口 ① · 通用代工选型题质量覆盖率——采购初筛是否被 AI 纳入候选名单</h4><span class="badge b-red">P0</span></div>
+      <p style="font-size:13px;color:var(--ink2);line-height:1.65"><b>实测证据 · </b>Q1-Q14 共 55 个有效回答：3 命中、25 部分、27 未命中，质量覆盖 <b>28.2%</b>。<br><b>差距 · </b>比品牌直搜题 75.0% 低 <b>46.8 个百分点</b>。<br><b>影响 · </b>不点名即失位，采购方在 AI 初筛阶段更容易被引向祥兴、新秀、华兴、弘大、银座等竞品。</p>
+    </div>
+
+    <div class="card" style="border-left:4px solid var(--red)">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px"><h4 style="font-size:15px;font-weight:500">缺口 ② · 主体/品牌关联——宏图集团 = 源头工厂 + 喵旅 能否被 AI 划等号</h4><span class="badge b-red">P0</span></div>
+      <p style="font-size:13px;color:var(--ink2);line-height:1.65"><b>实测证据 · </b>四引擎 Q16 均能说清现名、旧名和喵旅；但 DeepSeek/豆包通用题仍把“宏图集团”与旧名/Greatchip 分列，Kimi Q6 又以深圳销售主体切入。<br><b>差距 · </b>点名关系题准确，通用选型场景仍割裂。<br><b>影响 · </b>客户核实签约、开票、出口和品牌运营主体时增加疑虑，削弱“工厂+品牌”协同背书。</p>
+    </div>
+
+    <div class="card" style="border-left:4px solid var(--red)">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px"><h4 style="font-size:15px;font-weight:500">缺口 ③ · 主推强项（源头工厂供货 / 跨境代工 / 企业礼品）AI 推荐位</h4><span class="badge b-red">P0</span></div>
+      <p style="font-size:13px;color:var(--ink2);line-height:1.65"><b>实测证据 · </b>Q3 25%、Q4 12.5%、Q5 12.5%、Q6 37.5%；只有豆包以 Greatchip 在跨境题首推，但主体未合并。<br><b>差距 · </b>现名未形成跨引擎稳定 TOP1；企业礼品和电商供货尤其弱。<br><b>影响 · </b>高价值批量代工与跨境订单在 AI 初筛阶段直接流向已有高位占位的竞品。</p>
+    </div>
+
+    <div class="card" style="border-left:4px solid var(--amber)">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px"><h4 style="font-size:15px;font-weight:500">缺口 ④ · 官网技术底座 · 业务/资质能否被 AI 读到</h4><span class="badge b-amber">P1</span></div>
+      <p style="font-size:13px;color:var(--ink2);line-height:1.65"><b>实测证据 · </b>Q20 四个回答均为部分：官网和地址可读，但域名、电话、邮箱多版本并存，“小灯塔”认定与自研板材证据结论冲突。<br><b>差距 · </b>一手信源未把主体、联系方式、证书编号和材料证据统一成可复核事实页。<br><b>影响 · </b>采购者需要二次查证，AI 继续依赖第三方目录与营销稿，负面或错误信息更容易并列出现。</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============== CH·08 竞品表 ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·08</span>
+    <h2>最扎心的一张表 · AI 里排在你前面的，未必比你更懂箱包制造</h2>
+  </div>
+  <p class="section-desc">四引擎实测显示：宏图集团在八个高价值场景里多数缺席或低位出镜；真正靠前的多是祥兴、新秀、银座、华兴、弘大等已形成稳定内容资产的工厂。右列“真实实力对比”为官网/企业资料口径，仍需证书和案例复核。</p>
+
+  <div style="overflow-x:auto">
+  <table class="compete-table" style="min-width:900px">
+    <thead>
+      <tr>
+        <th style="width:9%">场景</th>
+        <th style="width:27%">高价值采购/代工问句</th>
+        <th style="width:16%" class="col-us">宏图集团 AI 排位</th>
+        <th style="width:24%">AI 里排在前面的对手（实测）</th>
+        <th style="width:24%">宏图集团真实实力对比</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><span class="badge b-red">代工</span></td><td>拉杆箱代工厂/OEM 贴牌哪家好？(Q1)</td><td class="col-us"><span class="no">4 引擎有效回答均未提及</span></td><td>祥兴、开润、新秀、银座、正雄、宾豪等</td><td>宏图具备相关产线与代工能力，但未转化为通用推荐席位；企业资料中的高合格率口径，建议以实际质检数据或证明材料为准。</td></tr>
+      <tr><td><span class="badge b-amber">源头</span></td><td>行李箱源头工厂/江西吉安厂家？(Q3)</td><td class="col-us"><span class="partial">旧名/Greatchip 低位，现名缺席</span></td><td>华兴、弘大、百诺、江西其他厂及平湖产业带</td><td>新干产业集群身份可被识别，但现名、旧名、英文别名没有合并；“小灯塔”证据仍需统一。</td></tr>
+      <tr><td><span class="badge b-red">电商供货</span></td><td>电商铺货找源头厂批发/一件代发？(Q4/Q11)</td><td class="col-us"><span class="no">Q4 仅豆包低位；Q11 最高第一梯队</span></td><td>1688/包牛牛、华兴、弘大、白沟与平湖工厂</td><td>若确有现货与代发能力，应补充库存、发货时效、退换和无痕面单等可核验数据。</td></tr>
+      <tr><td><span class="badge b-red">礼品</span></td><td>企业礼品 LOGO 拉杆箱定制找谁？(Q5)</td><td class="col-us"><span class="no">仅 DeepSeek 以旧名低位提及</span></td><td>威豹、华兴、和旭、渡远、白沟礼品厂</td><td>工艺与包装能力已有描述，但礼品并未形成主打认知；千问/Kimi 品牌题也只认定为“可承接”。</td></tr>
+      <tr><td><span class="badge b-amber">跨境</span></td><td>跨境 DTC 行李箱代工一站式？(Q6)</td><td class="col-us"><span class="partial">3/4 部分出镜；豆包 Greatchip 第1</span></td><td>银座、祥兴、新秀、宾豪、弘大等</td><td>跨境是最有机会的通用场景，但需把深圳销售主体、江西制造主体与 Greatchip/喵旅统一。</td></tr>
+      <tr><td><span class="badge b-green">ODM</span></td><td>能开模/改色/改内衬的深度 ODM 工厂？(Q7)</td><td class="col-us"><span class="yes">Kimi 现名首推；豆包 Greatchip 第2</span></td><td>新秀、银座、弘大、宾豪等</td><td>这是当前最接近形成优势占位的场景，应优先用案例、打样周期和模具归属证据固化。</td></tr>
+      <tr><td><span class="badge b-amber">区域</span></td><td>江西做拉杆箱的工厂哪家综合实力强？(Q11)</td><td class="col-us"><span class="partial">Kimi 第一梯队；豆包第3且 MOQ 高</span></td><td>华兴、弘大通常排在宏图之前</td><td>区域龙头认知存在，但综合第一尚未形成；环保/出口定位同时带来“小单不友好”印象。</td></tr>
+      <tr><td><span class="badge b-green">主体</span></td><td>宏图集团、喵旅、原新干宏图伟业什么关系？(Q16)</td><td class="col-us"><span class="yes">4 引擎回答均准确</span></td><td>无竞品；通用题仍有实体拆分</td><td>点名关系题已能讲清，但必须进一步让同一口径进入通用选型答案。</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div style="margin-top:18px;padding:18px 22px;background:linear-gradient(135deg,#E7ECF2 0%,#DCEAF4 100%);border:1px solid var(--line2);border-radius:12px">
+    <div style="font-size:14px;font-weight:500;color:var(--brand-ink);margin-bottom:8px">这张表将揭示的核心问题</div>
+    <div style="font-size:13px;color:var(--ink2);line-height:1.75">
+      AI 推荐的核心逻辑不是“谁真实实力更强”，而是“谁在检索语料里出现得更多、更结构化、证据更统一”。实测已经确认：宏图在点名品牌题能答，在通用代工题却大量缺席；竞争对手凭场景化内容占据了采购入口。下一步要把真实制造能力转化为可核验、可引用、可比较的内容资产。
+    </div>
+  </div>
+</section>
+
+<!-- ============== CH·09 GEO ROI ============== -->
+<section>
+  <div class="section-head">
+    <span class="section-num">CH·09</span>
+    <h2>GEO ROI 产值预估 · 补齐缺口能为宏图集团带回多少年营收（实测数据测算）</h2>
+  </div>
+  <p class="section-desc">采用“年检索量 × AI 决策渗透 × 有效商机转化 × 签约率 × 年客单价”五段式漏斗推算。箱包 OEM/ODM 是典型的项目型 B2B 生意——单次搜索价值远高于普通消费品，但检索者中真正形成有效询盘的比例也更低，因此本页对流量做近义词去重，并对商机率、签约率和客单价采用偏保守口径。年检索量来自 CH·06 的 32 组长尾词估算区间，按场景归并、取中位数并扣除重复意图。</p>
+
+  <div class="methodology" style="margin-bottom:16px">
+    <b>推算模型 · 系数取值（保守口径）</b><br>
+    <b>1. 年检索量：</b>取 CH·06 月度需求区间中位数 × 12，按采购场景归组，并对同一决策链中的近义词按约 30–50% 重合度去重；不是百度或平台官方流量。<br>
+    <b>2. AI 决策渗透：</b>指检索需求中使用 DeepSeek / 通义千问 / 豆包 / Kimi 辅助找厂、比价或尽调的比例，按 <b>22–30%</b> 情景估计。<br>
+    <b>3. 有效商机转化：</b>指一次 AI 辅助检索最终形成可跟进询盘的比例，考虑重复检索、学生/同行/低意向流量后，仅取 <b>0.5–0.6%</b>。<br>
+    <b>4. 签约率：</b>有效询盘 → 打样/报价 → 签约，按 <b>8–12%</b>；远低于把“看到推荐”直接视为成交的激进口径。<br>
+    <b>5. 年客单价：</b>按首年可确认含税销售额估算：常规 OEM/ODM 约 35 万、批发供货约 18 万、企业礼品约 15 万、跨境/深度 ODM 约 50 万；建议用宏图真实订单中位数校准。
+  </div>
+
+  <div style="overflow-x:auto">
+  <table style="min-width:920px">
+    <thead>
+      <tr><th style="width:6%">缺口</th><th style="width:27%">对应场景</th><th class="right" style="width:11%">年检索 ≈</th><th class="center" style="width:10%">AI 渗透</th><th class="center" style="width:10%">商机转化</th><th class="center" style="width:9%">签约率</th><th class="right" style="width:11%">年客单价</th><th class="right" style="width:16%">年潜在产值</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><span class="badge b-red">①</span></td><td><b>通用 OEM/ODM 选型</b><br><span style="font-size:11px;color:var(--ink3)">代工厂推荐 / 贴牌 / 开模 / MOQ</span></td><td class="right">≈ 3.2 万</td><td class="center">28%</td><td class="center">0.6%</td><td class="center">10%</td><td class="right">35 万</td><td class="right"><b style="color:var(--green-ink)">≈ 188 万</b></td></tr>
+      <tr><td><span class="badge b-red">②</span></td><td><b>源头供货 / 电商批发</b><br><span style="font-size:11px;color:var(--ink3)">厂家直供 / 铺货 / 批发 / 产业带</span></td><td class="right">≈ 3.1 万</td><td class="center">25%</td><td class="center">0.5%</td><td class="center">10%</td><td class="right">18 万</td><td class="right"><b style="color:var(--green-ink)">≈ 70 万</b></td></tr>
+      <tr><td><span class="badge b-red">③</span></td><td><b>企业礼品箱包定制</b><br><span style="font-size:11px;color:var(--ink3)">LOGO / 配色 / 内衬 / 礼盒包装</span></td><td class="right">≈ 0.9 万</td><td class="center">22%</td><td class="center">0.6%</td><td class="center">12%</td><td class="right">15 万</td><td class="right"><b style="color:var(--green-ink)">≈ 21 万</b></td></tr>
+      <tr><td><span class="badge b-amber">④</span></td><td><b>跨境 DTC / 深度 ODM</b><br><span style="font-size:11px;color:var(--ink3)">外贸代工 / 环保材料 / 品牌孵化</span></td><td class="right">≈ 1.5 万</td><td class="center">30%</td><td class="center">0.5%</td><td class="center">8%</td><td class="right">50 万</td><td class="right"><b style="color:var(--green-ink)">≈ 90 万</b></td></tr>
+      <tr style="background:var(--wait-soft)"><td colspan="7" style="text-align:right;font-weight:500;color:var(--wait-ink);font-size:14px;padding:16px">4 大缺口 · 年潜在产值合计（合理口径）</td><td class="right" style="color:var(--green-ink);font-weight:500;font-size:15px;padding:16px 14px">≈ 370 万</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="grid-3 mt-6">
+    <div class="card" style="text-align:center;padding:24px 16px;border-top:3px solid var(--amber)"><div style="font-size:11.5px;color:var(--ink3);letter-spacing:.5px">悲观口径</div><div style="font-size:32px;font-weight:500;color:var(--amber-ink);margin-top:6px">≈ 210 万<span style="font-size:14px">/年</span></div><div style="font-size:11.5px;color:var(--ink3);margin-top:5px">按流量低位、较低商机率与较低客单测算</div></div>
+    <div class="card" style="text-align:center;padding:24px 16px;border-top:3px solid var(--green)"><div style="font-size:11.5px;color:var(--ink3);letter-spacing:.5px">合理口径</div><div style="font-size:32px;font-weight:500;color:var(--green-ink);margin-top:6px">≈ 370 万<span style="font-size:14px">/年</span></div><div style="font-size:11.5px;color:var(--ink3);margin-top:5px">按表内中位系数计算，建议作为内部参考</div></div>
+    <div class="card" style="text-align:center;padding:24px 16px;border-top:3px solid var(--brand)"><div style="font-size:11.5px;color:var(--ink3);letter-spacing:.5px">乐观口径</div><div style="font-size:32px;font-weight:500;color:var(--brand);margin-top:6px">≈ 630 万<span style="font-size:14px">/年</span></div><div style="font-size:11.5px;color:var(--ink3);margin-top:5px">按流量高位、较高签约率与项目复购测算</div></div>
+  </div>
+
+  <div style="margin-top:20px;padding:18px 22px;background:linear-gradient(135deg,#DCEEE4 0%,#F6F1E7 100%);border:1px solid #A9CFB9;border-radius:12px">
+    <div style="font-size:14px;font-weight:500;color:var(--green-ink);margin-bottom:8px">从“年潜在产值”反推 GEO 投入的性价比</div>
+    <div style="font-size:13px;color:var(--ink2);line-height:1.75">宏图集团当前通用采购/代工题质量覆盖仅 <b>28.2%</b>，而品牌直搜题达到 <b>75.0%</b>，说明核心问题不是企业没有制造能力，而是采购者不点名提问时，AI 没有稳定把宏图放进候选名单。按合理口径，四类缺口对应的可争取年产值约 <b style="color:var(--green-ink)">370 万元</b>；其中通用 OEM/ODM 选型约占一半，是最值得优先投入的入口。该数字代表在既定漏斗假设下可争取的签约产值，不等于保证新增收入，也不应与利润直接等同；建议上线后用询盘来源标记、打样率、签约率和真实年客单按季度回填校准。</div>
+    <div style="font-size:11.5px;color:var(--ink3);margin-top:8px">※ 基于 CH·06 需求热度与 CH·02–CH·05 四引擎实测缺口的情景测算，非搜索平台官方流量、非财务预测或收入承诺。</div>
+  </div>
+</section>
+
+<!-- ============== CH·10 缤商解决方案 ============== -->
+<section>
+  <div class="section-head"><span class="section-num">CH·10</span><h2>缤商怎么帮宏图集团从"品牌被认识"升级为"选型被推荐"</h2></div>
+  <p class="section-desc">四引擎实测已确认：<b>宏图集团在点名品牌题中的质量覆盖为 75.0%，但通用箱包代工选型题仅 28.2%，落差 46.8 个百分点。</b>源头工厂+自有品牌喵旅在 Q16 中形成跨引擎统一口径，却没有稳定迁移到通用推荐答案。<b style="color:var(--brand-ink)">据此，P0 为通用采购/代工选型、主体跨场景统一，以及源头供货/跨境代工/企业礼品主推强项；P1 为官网一手信源结构化和证据纠偏。</b></p>
+
+  <h3 style="font-size:17px;font-weight:500;color:var(--ink);margin:8px 0 12px">一 · 提升逻辑 · 三个"喂对"</h3>
+  <div class="grid-3 mb-4">
+    <div class="card" style="border-top:3px solid var(--brand)"><h4 style="font-size:14px;font-weight:500;color:var(--brand-ink);margin-bottom:8px">① 喂对信源</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.65">把宏图集团的制造沉淀（全链路实体工厂，以及据企业提供资料所示的省级“小灯塔”数字化标杆、自研 Armopack 板材、丰富的批量合作与跨境项目经验、稳定品控能力）、真实合作案例，通过 AI 高频引用的<b>1688/阿里生态、箱包行业平台、知乎/百家号、B2B 采购资讯</b>系统化沉淀，并以官网一手信源及证明材料进一步固化——提高 4 引擎检索到宏图集团硬实力并正确理解"宏图集团=源头工厂+喵旅品牌"关系的概率。</p></div>
+    <div class="card" style="border-top:3px solid var(--brand)"><h4 style="font-size:14px;font-weight:500;color:var(--brand-ink);margin-bottom:8px">② 喂对场景</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.65">不只做品牌词。围绕<b>拉杆箱 OEM/ODM 代工/行李箱源头工厂供货/企业礼品箱包定制/跨境 DTC 外贸代工/环保自研板材/品牌孵化一站式</b>等高转化采购决策场景，铺设独立结构化内容——提高宏图集团在采购/品牌方提问时进入 AI 候选名单的概率。</p></div>
+    <div class="card" style="border-top:3px solid var(--brand)"><h4 style="font-size:14px;font-weight:500;color:var(--brand-ink);margin-bottom:8px">③ 喂对引擎</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.65">DeepSeek 偏知乎+行业内容，通义偏阿里生态+B2B，豆包偏抖音+百家号，Kimi 偏长文+知乎——四引擎实测后将按各引擎信源偏好差异化投放，优先补齐通用代工选型题与源头工厂/自有品牌关联认知。</p></div>
+  </div>
+
+  <h3 style="font-size:17px;font-weight:500;color:var(--ink);margin:28px 0 12px">二 · 具体执行方案（投放量按四引擎实测缺口优先级确定）</h3>
+  <table class="compete-table">
+    <thead><tr><th style="width:16%">攻坚方向</th><th style="width:32%">缤商执行动作</th><th style="width:26%">资源</th><th style="width:26%">目标（基于实测基线）</th></tr></thead>
+    <tbody>
+      <tr><td><span class="badge b-brand">通用选型题攻坚</span></td><td><b>在 AI 高频引用的信源上铺设箱包代工选型内容</b>：知乎/行业号"拉杆箱代工厂怎么选""行李箱源头工厂怎么找""OEM 贴牌防坑指南"、真实合作案例长文</td><td>知乎+1688/箱包行业平台+B2B媒体+百科</td><td class="col-us wait">通用选型题质量覆盖 28.2% → 90 天持续提升</td></tr>
+      <tr><td><span class="badge b-brand">主体/品牌关联</span></td><td><b>把"宏图集团=源头工厂+喵旅品牌"的结构写进权威信源</b>：品牌百科、企业介绍长文、官网内链，明确"实体统一、品牌+代工双线、新旧主体沿革"</td><td>百度百科+知乎+企业信源+官网内链</td><td class="col-us wait">以提升主体正确关联率为目标，按阶段复测遗漏与混淆情况</td></tr>
+      <tr><td><span class="badge b-brand">主推强项</span></td><td><b>源头工厂供货/跨境 DTC 代工/企业礼品定制 独立场景内容</b>各配长文+方案解读+案例（据企业资料：丰富的批量合作与跨境项目经验、欧美定制项目、自研板材；相关事实以官网一手信源及证明材料固化）</td><td>行业媒体+知乎+官网专题</td><td class="col-us wait">以提升各主推赛道进入四引擎候选名单的概率和推荐位置为目标，按月复测</td></tr>
+      <tr><td><span class="badge b-brand">官网底座</span></td><td>Schema.org 五类+llms.txt+业务板块/案例/资质结构化文本化（greatchipluggage.com 单站）</td><td>Organization/Product/Service/FAQ/Article Schema</td><td class="col-us wait">官网一手信源占比提升</td></tr>
+      <tr><td><span class="badge b-brand">周报监测</span></td><td>4引擎×20题自动化周报，追踪 vs 竞品排名变化与主体关联准确度</td><td>缤商RPA实测平台+可视化看板</td><td class="col-us wait">每周可复盘·打法快速迭代</td></tr>
+    </tbody>
+  </table>
+
+  <div style="margin-top:20px;padding:18px 22px;background:linear-gradient(135deg,#DCEAF4 0%,#EAF2F8 100%);border:1px solid #A9CBE2;border-radius:12px">
+    <div style="font-size:14px;font-weight:500;color:var(--brand-ink);margin-bottom:8px">为什么是缤商</div>
+    <div style="font-size:13px;color:var(--ink2);line-height:1.7">普通 GEO 服务商若仅做关键词堆叠、外链发布和百度收录，往往难以形成稳定的 AI 引用。缤商的差异在于可协同<b>1688/阿里生态 + 箱包行业平台 + 知乎/百家号 + B2B 采购资讯</b>全域信源矩阵。通过持续建设高质量信源，提高宏图集团进入 4 家 AI 箱包代工选型候选名单的概率，并用同口径阶段复测持续校准——<b>尤其围绕“全链路实体源头工厂、OEM/ODM 一站式、跨境 DTC 代工，以及据企业资料所示的省级‘小灯塔’数字化标杆、自研 Armopack 板材、丰富的批量合作与跨境项目经验”等信息，通过官网一手信源及证明材料进一步固化，推动其从"品牌有、通用题里 AI 很少提及"逐步转向"在更多适配问句中获得正向提及"</b>；实际表现以阶段复测结果为准。</div>
+  </div>
+</section>
+
+<!-- ============== CH·11 官网优化 ============== -->
+<section>
+  <div class="section-head"><span class="section-num">CH·11</span><h2>官网优化建议 · 让 greatchipluggage.com 成为 AI 可读懂的一手信源</h2></div>
+  <p class="section-desc">官网是 GEO 的内容地基。宏图集团有<b>统一官网 greatchipluggage.com</b>（关于/工厂实力/喵旅产品/OEM-ODM/新闻/FAQ/联系）。制造型官网常见问题：业务内容以图片/概述为主、案例与资质缺结构化文本、自有品牌与工厂主体缺清晰关联说明，导致 AI 更多依赖 1688/黄页/第三方目录认知宏图集团。官网结构化改造的核心目标：<b>提高 AI 从官网读取一手业务信息并正确识别"源头工厂+喵旅品牌"关系的概率</b>。（以下为通用诊断方向，具体问题以官网技术核查为准。）</p>
+
+  <div class="grid-2" style="margin-top:14px">
+    <div class="card" style="border-left:3px solid var(--wait)"><h4 style="font-size:14px;font-weight:500;color:var(--wait);margin-bottom:12px">官网技术核查重点</h4>
+      <ul style="list-style:none;padding:0">
+        <li style="display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)"><span style="flex-shrink:0;width:20px;height:20px;background:var(--wait-soft);color:var(--wait);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">→</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">缺"宏图集团=源头工厂+喵旅品牌"关联说明与主体沿革</div><div style="font-size:12px;color:var(--ink3)">AI 抓不到工厂与自有品牌、新旧主体名同属一个实体，易割裂认知</div></div></li>
+        <li style="display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)"><span style="flex-shrink:0;width:20px;height:20px;background:var(--wait-soft);color:var(--wait);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">→</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">按业务板块组织，缺按场景/客户类型入口</div><div style="font-size:12px;color:var(--ink3)">AI 抓不到"OEM 贴牌/源头供货/企业礼品/跨境代工"等场景级关联</div></div></li>
+        <li style="display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)"><span style="flex-shrink:0;width:20px;height:20px;background:var(--wait-soft);color:var(--wait);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">→</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">合作案例/订单多为概述，缺结构化文本</div><div style="font-size:12px;color:var(--ink3)">据企业资料所示的丰富批量合作与跨境项目经验、欧美定制项目及“小灯塔”资质，仍需通过官网一手信源和证明材料形成可被 AI 抓取的文本</div></div></li>
+        <li style="display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)"><span style="flex-shrink:0;width:20px;height:20px;background:var(--wait-soft);color:var(--wait);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">→</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">缺采购/代工选型 FAQ</div><div style="font-size:12px;color:var(--ink3)">Q20 四引擎均只做到部分，官网/电话/邮箱/资质未被一次说全且结论冲突</div></div></li>
+        <li style="display:flex;gap:10px;padding:8px 0"><span style="flex-shrink:0;width:20px;height:20px;background:var(--wait-soft);color:var(--wait);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">→</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">技术GEO基建核查重点</div><div style="font-size:12px;color:var(--ink3)">官网是否有 Schema/llms.txt/sitemap_ai.xml</div></div></li></ul></div>
+    <div class="card" style="border-left:3px solid var(--green)"><h4 style="font-size:14px;font-weight:500;color:var(--green-ink);margin-bottom:12px">缤商建议的优化方向</h4>
+      <ul style="list-style:none;padding:0">
+        <li style="display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)"><span style="flex-shrink:0;width:20px;height:20px;background:var(--green-soft);color:var(--green-ink);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">✓</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">品牌/主体关联 + Organization Schema</div><div style="font-size:12px;color:var(--ink3)">明确标注宏图集团实体、喵旅品牌与源头工厂/更名沿革关系</div></div></li>
+        <li style="display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)"><span style="flex-shrink:0;width:20px;height:20px;background:var(--green-soft);color:var(--green-ink);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">✓</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">"业务×客户场景"双轴架构</div><div style="font-size:12px;color:var(--ink3)">新增 OEM/ODM/源头供货/企业礼品/跨境代工等场景入口</div></div></li>
+        <li style="display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)"><span style="flex-shrink:0;width:20px;height:20px;background:var(--green-soft);color:var(--green-ink);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">✓</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">合作案例/资质→HTML结构化文本</div><div style="font-size:12px;color:var(--ink3)">真实订单配 Article/CaseStudy Schema（含客户类型/规格/数量/成果）</div></div></li>
+        <li style="display:flex;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)"><span style="flex-shrink:0;width:20px;height:20px;background:var(--green-soft);color:var(--green-ink);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">✓</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">30+采购/代工选型FAQ知识库</div><div style="font-size:12px;color:var(--ink3)">适配 DeepSeek/通义/豆包/Kimi 的检索与引用方式</div></div></li>
+        <li style="display:flex;gap:10px;padding:8px 0"><span style="flex-shrink:0;width:20px;height:20px;background:var(--green-soft);color:var(--green-ink);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500">✓</span><div><div style="font-size:13px;font-weight:500;color:var(--ink)">GEO全套基建</div><div style="font-size:12px;color:var(--ink3)">五类Schema+llms.txt+sitemap_ai.xml</div></div></li></ul></div>
+  </div>
+</section>
+
+<!-- ============== CH·12 4把手术刀 ============== -->
+<section>
+  <div class="section-head"><span class="section-num">CH·12</span><h2>4 把手术刀 · 缤商为宏图集团量身定制的攻坚方案</h2></div>
+  <p class="section-desc">针对 CH·07 的 4 大缺口（实测后量化），给出可立即落地的方案。<b>90 天内完成首轮可控工程部署</b>。P0/P1 优先级依据四引擎实测结果确定：<b>P0 为通用采购/代工选型、主体关联，以及源头供货/跨境代工/企业礼品主推强项；P1 为官网技术底座。</b></p>
+
+  <div class="knife"><div class="knife-num">01</div><div class="knife-body"><h4>攻克通用箱包代工选型题——提升宏图集团进入 AI 候选名单的概率</h4><span class="stack">选型指南</span><span class="stack">场景决策长文</span><span class="stack">百科深化</span><p>在知乎/行业号等 AI 高频引用的信源上铺设"拉杆箱代工厂怎么选""行李箱源头工厂怎么找""OEM 贴牌防坑指南""跨境行李箱代工怎么选"结构化内容，把宏图集团全链路实体制造、根据企业现有资料所示的自研板材能力和一站式服务喂给 AI，让"拉杆箱代工厂/源头工厂哪家好"等通用题更容易关联到宏图集团。</p><div class="expect">实测基线 · <b>通用采购/代工选型题质量覆盖率 28.2%</b> · 目标 · <b style="color:var(--green-ink)">持续提升进入候选名单的概率；以 90 天同口径阶段复测结果为准</b></div></div></div>
+  <div class="knife"><div class="knife-num">02</div><div class="knife-body"><h4>打通主体/品牌关联——提升"宏图集团=源头工厂+喵旅"的识别一致性</h4><span class="stack">品牌百科</span><span class="stack">主体介绍长文</span><span class="stack">官网内链</span><p>产出品牌百科、企业主体介绍长文，明确"江西宏图集团"为统一实体、源头工厂做 OEM/ODM 代工、喵旅做自有零售品牌、原新干宏图伟业为更名前主体的结构，并通过官网内链、权威信源反复强化——改善 Q16 主体关系口径不一致的潜在风险。</p><div class="expect">目标 · <b class="wtag">以提升主体正确关联的稳定性为目标，按阶段复测遗漏与混淆情况</b></div></div></div>
+  <div class="knife"><div class="knife-num">03</div><div class="knife-body"><h4>强化源头供货 / 跨境代工 / 企业礼品 3 大差异化主推强项</h4><span class="stack">场景方案页</span><span class="stack">案例解读</span><span class="stack">4引擎分发</span><p>三条最有壁垒的主推强项赛道分别建独立场景内容+方案解读（源头工厂直供与批量供货、跨境 DTC 一站式代工与据企业资料所示的欧美定制项目、企业礼品 LOGO 定制与礼盒包装），配长文投至行业媒体/知乎，并通过官网一手信源及证明材料进一步固化——提高其在 4 引擎适配问句中进入候选名单的概率。</p><div class="expect">目标 · <b class="wtag">持续提升各主推赛道进入四引擎候选名单的概率和推荐位置；以 6 个月阶段复测结果为准</b></div></div></div>
+  <div class="knife"><div class="knife-num">04</div><div class="knife-body"><h4>官网技术底座结构化改造</h4><span class="stack">Schema全量部署</span><span class="stack">llms.txt</span><span class="stack">业务/案例结构化</span><p>五类Schema标记+llms.txt+sitemap_ai.xml+业务板块/案例/资质HTML结构化+品牌与工厂主体关联说明+30题采购/代工选型FAQ知识库，让 AI 更容易从 greatchipluggage.com 读取一手业务信息。</p><div class="expect">目标 · <b class="wtag">持续提升技术底座完整度与官网一手信源占比；以技术核查和阶段复测结果为准</b></div></div></div>
+</section>
+
+<!-- ============== CH·13 路线图 ============== -->
+<section>
+  <div class="section-head"><span class="section-num">CH·13</span><h2>宏图集团 GEO 落地路线图 · 90天 · 180天 · 365天</h2></div>
+  <p class="section-desc">从<b style="color:var(--brand-ink)">四引擎实测基线 42.4/100</b> 出发，分 3 阶段提升 GEO 健康度。核心是提升 L3 选型意图层质量覆盖、把源头工厂+自有品牌关联做清晰，并改善竞品已占据的 AI 通用箱包代工推荐位。各阶段均以同一套 4 引擎 × 20 题矩阵复测。</p>
+
+  <div class="roadmap">
+    <div class="phase"><div class="phase-head"><span class="p-num">PHASE 1 · 0-90天</span><span class="p-tag">缺口攻坚</span></div><h4>先把通用代工选型题和主体关联喂给 4 引擎</h4><ul><li>基线实测4引擎·敲定攻坚清单</li><li>知乎/行业号铺设选型/场景内容</li><li>品牌百科+主体关联长文上线</li><li>官网Schema+llms.txt+业务结构化</li><li>源头供货+跨境代工专题上线</li></ul><div class="p-target" style="border-top:1px dashed var(--line);padding-top:10px"><div>GEO综合分：<b class="wtag">42.4/100</b></div><div style="margin-top:6px;color:var(--ink3)">首要指标：<b class="wtag">通用题质量覆盖 28.2%</b></div></div></div>
+    <div class="phase"><div class="phase-head"><span class="p-num">PHASE 2 · 91-180天</span><span class="p-tag">份额扩张</span></div><h4>提升主推强项进入 4 引擎候选名单的概率</h4><ul><li>源头供货/跨境代工/企业礼品深化投放+案例矩阵</li><li>行业媒体+垂直平台+知乎内容矩阵</li><li>4引擎×20题月度实测周报</li><li>合作案例Article/CaseStudy Schema全量上线</li></ul><div class="p-target" style="border-top:1px dashed var(--line);padding-top:10px"><div>GEO综合分：<b class="wtag">按月复测提升</b></div><div style="margin-top:6px;color:var(--ink3)">实测跟踪：<b class="wtag">80 格月度复测</b></div></div></div>
+    <div class="phase"><div class="phase-head"><span class="p-num">PHASE 3 · 181-365天</span><span class="p-tag">持续优化</span></div><h4>持续提升箱包采购/代工问句中的候选竞争力</h4><ul><li>箱包制造白皮书+案例集+行业方案三态发布</li><li>源头工厂×自研板材×跨境代工前瞻叙事</li><li>4引擎×20题终评·可见度与询盘归因复盘</li><li>年度GEO内容分发SOP交付</li></ul><div class="p-target" style="border-top:1px dashed var(--line);padding-top:10px"><div>GEO综合分：<b class="wtag">阶段结果以 80 格终期复测为准</b></div><div style="margin-top:6px;color:var(--ink3)">实测跟踪：<b class="wtag">80 格终期复测</b></div></div></div>
+  </div>
+
+  <div style="margin-top:20px;padding:18px 22px;background:linear-gradient(135deg,#EAF2F8 0%,#E7ECF2 100%);border:1px solid var(--line);border-radius:12px">
+    <div style="font-size:13px;color:var(--brand-ink);font-weight:500;margin-bottom:8px">宏图集团 GEO 的现实定位 · 品牌被认识 ≠ 选型被推荐</div>
+    <div style="font-size:13px;color:var(--ink2);line-height:1.7">箱包 OEM/ODM 代工是典型的重供应链、重打样交期、长比价决策链 B2B 制造生意，采购/品牌方（电商卖家、礼品采购、跨境 DTC、经销商）越来越习惯先问 AI 缩小工厂候选名单。<b class="wtag">四引擎实测结果</b>已经量化品牌直搜题与通用采购代工选型题的落差：75.0% 对 28.2%，AI 更常把祥兴、新秀、银座、华兴、弘大等放在前排。<br>据企业提供资料，宏图集团具备全链路实体源头工厂、数字化制造、自研材料、稳定品控能力与跨境 DTC 等制造能力和项目经验，但在 AI 中并未稳定转化为统一、可核验的采购候选认知；“小灯塔”、自研板材、丰富的批量合作与跨境项目经验及高合格率等关键主张仍存在证据强弱不一。<b>这并非否定企业真实实力，当前 GEO 核心问题是补强官网一手信源与证明材料、统一实体命名，并回应负面锚点。</b></div>
+  </div>
+</section>
+
+<footer>
+  <div>本报告为 <b>四引擎实测回填版</b>，保持原报告的 20 道采购/代工选型问句、8 大维度、5 圈层模型、6 大盲区与 32 长尾词结构；<b>DeepSeek / 通义千问 / 豆包 / Kimi 共 79 个唯一题型回答已完成复核</b>。仅 Kimi Q2 因原始对话重复 Q1 而不作错配。全表按 ✓命中 / ◐部分命中 / ✗未命中记录，并呈现提及方式、出现位置、正负面表达与限制项；ROI 为基于 CH·06 需求热度、四引擎实测缺口及保守 B2B 漏斗系数的情景测算，非收入承诺。</div>
+  <div style="margin-top:6px">实测回填版 · 2026-09-10 · 客户官网 greatchipluggage.com（江西宏图集团 · 喵旅 Mewtour）· 出品：<b>缤商 GEO 实验室</b></div>
+  <div style="margin-top:14px;color:#AEB4BD">© 2026 缤商科技 · 专为江西宏图集团科技有限公司（喵旅 Mewtour）箱包制造定制的 GEO 可见性诊断报告</div>
+</footer>
+
+</div>
+
+<script>
+const ctx = document.getElementById('radar').getContext('2d');
+new Chart(ctx, {
+  type: 'radar',
+  data: {
+    labels: ['① 品牌基础识别','② 核心业务识别','③ 采购选型出镜','④ 主体/品牌关联','⑤ 差异化强项','⑥ 竞品对比决策','⑦ 技术底座','⑧ 拓展场景&信任'],
+    datasets: [
+      { label: '宏图集团（79格有效样本）', data: [15,13,5,14,8,11,8,10], backgroundColor: 'rgba(47,132,174,0.16)', borderColor: '#2F84AE', borderWidth: 2, pointBackgroundColor: '#2F84AE', pointRadius: 3 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    scales: { r: { min: 0, max: 16, ticks: { stepSize: 4, backdropColor: 'transparent', color: '#8A93A0', font: { size: 10 } }, grid: { color: '#E1E7EF' }, angleLines: { color: '#E1E7EF' }, pointLabels: { color: '#374151', font: { size: 11.5 } } } },
+    plugins: { legend: { position: 'bottom', labels: { color: '#374151', font: { size: 11 }, boxWidth: 12, padding: 10, usePointStyle: true } }, tooltip: { enabled: false } }
+  }
+});
+</script>
+
+
+
+</body></html>
